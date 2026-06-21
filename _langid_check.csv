@@ -1,0 +1,786 @@
+clip,lang,prob,text
+dataset/40. Утро/sound/0001.mp3,de,0.329,"Mach Kuchen reidei'em, Asch!"
+dataset/40. Утро/sound/0002.mp3,hy,0.179,Әрсау зенан әрсау зіштам
+dataset/40. Утро/sound/0003.mp3,he,0.529,ראי שומי
+dataset/40. Утро/sound/0004.mp3,en,0.575,of
+dataset/40. Утро/sound/0005.mp3,ar,0.341,فرش شخطه
+dataset/40. Утро/sound/0006.mp3,tl,0.196,ang kalmamam ang kalmanam
+dataset/40. Утро/sound/0007.mp3,he,0.213,כשקשו ראי שאומי
+dataset/40. Утро/sound/0008.mp3,ro,0.171,Raișom radiștin cauzon
+dataset/40. Утро/sound/0009.mp3,lt,0.444,"Raikšoma jumam, arbasų, anklmadam kašcinan."
+dataset/41. Полдень/sound/0001.mp3,kk,0.324,"Абон, райшом, шіхорл махсаузыштым садма, нақинайнымы."
+dataset/41. Полдень/sound/0002.mp3,he,0.607,"אבן, עינבון, שיכורו, וחימהוזנה."
+dataset/41. Полдень/sound/0003.mp3,he,0.261,שחורל אקנחי מוזנן
+dataset/41. Полдень/sound/0004.mp3,zh,0.192,阿熊神師寶製作詞
+dataset/42. Вечер/sound/0001.mp3,uk,0.223,Камузина Райшом Іжерин.
+dataset/42. Вечер/sound/0002.mp3,he,0.546,אז ראשום איזה רי נחימהוזנן
+dataset/42. Вечер/sound/0003.mp3,ru,0.430,и жрманом ию.
+dataset/42. Вечер/sound/0004.mp3,ar,0.486,عربسو عربسو
+dataset/42. Вечер/sound/0005.mp3,pl,0.479,I żarodam i żarłam.
+dataset/42. Вечер/sound/0006.mp3,kk,0.381,Амғалма көшсіңан.
+dataset/43. Ночь/sound/0002.mp3,ru,0.382,"Ох, шов, хахтова жалвая."
+dataset/43. Ночь/sound/0003.mp3,ar,0.698,اجمع فاستمى رجدخصنا رجدخصاستم اخشاوي
+dataset/43. Ночь/sound/0005.mp3,en,0.554,Kutthaland
+dataset/43. Ночь/sound/0006.mp3,he,0.409,דישאג מירוש עכשיו הוא.
+dataset/43. Ночь/sound/0007.mp3,ar,0.344,كتم قشي أخشف وارزن
+dataset/44. Времена года/sound/0001.mp3,ru,0.628,весна
+dataset/44. Времена года/sound/0002.mp3,kk,0.285,"Осін, афаз афонтей мажірдымы тұнерсауы жымың валзың шардфа жег"
+dataset/44. Времена года/sound/0003.mp3,ru,0.689,Нет. Да.
+dataset/44. Времена года/sound/0005.mp3,ar,0.331,برميط روار
+dataset/44. Времена года/sound/0006.mp3,az,0.376,salmayı aqaşı žimag
+dataset/44. Времена года/sound/0007.mp3,kk,0.281,"нір тқау, рағу алзыг."
+dataset/44. Времена года/sound/0008.mp3,bg,0.388,"Сръщу ду, валзегон, райщом хахте."
+dataset/44. Времена года/sound/0009.mp3,ar,0.519,شردهم وارنجن وي
+dataset/44. Времена года/sound/0010.mp3,ar,0.247,وارنت أرخ در ويخر بنت
+dataset/44. Времена года/sound/0011.mp3,kk,0.547,"Куд хорзу шардың бон балышды бін, шат аді баулафын."
+dataset/44. Времена года/sound/0012.mp3,de,0.663,"Paida, Ausschard, Kachter, Arbieten"
+dataset/44. Времена года/sound/0013.mp3,bg,0.123,"Хахон, Уолдав, Адей Маган, Авдаза Хошу."
+dataset/44. Времена года/sound/0014.mp3,ar,0.339,رالوض شجغرين فجد
+dataset/44. Времена года/sound/0015.mp3,lt,0.230,"Kudna waržin, facžigun šalfineg avdate."
+dataset/45. Год/sound/0001.mp3,fr,0.641,Qu'est-ce à jouer au D. Oui ?
+dataset/45. Год/sound/0002.mp3,ro,0.279,Voi-uri m-ai fărășă de nouă zic căgăm ași.
+dataset/45. Год/sound/0003.mp3,kk,0.542,"Ині аж, асі аж, маферд, ма тіз кі басаузан, есколама."
+dataset/45. Год/sound/0004.mp3,lt,0.165,"Aš asi až, to lakį žin ažu."
+dataset/45. Год/sound/0005.mp3,tr,0.430,Ah fazı dargı!
+dataset/45. Год/sound/0006.mp3,ar,0.473,دونام عنش
+dataset/45. Год/sound/0007.mp3,pl,0.221,Mach Ereje Rajzma.
+dataset/46. Дни недели/sound/0001.mp3,fr,0.779,Abonne ce bon eau !
+dataset/46. Дни недели/sound/0004.mp3,ru,0.275,"Абон, райщом, у, поришер. Торник, децаг, среда, артецаг, суббота, шабат. Абон, махан, кушка, бон, у."
+dataset/46. Дни недели/sound/0012.mp3,hy,0.332,қаùр сі τ Ұ өй Ӫрт өйӪ өйӪ өйӪ төйӪ төй өйӪ мағ  Smack Swiss
+dataset/46. Дни недели/sound/0013.mp3,ru,0.305,"Вы, води, довокор и ражма."
+dataset/47. Час/sound/0002.mp3,he,0.947,סאו שחת או
+dataset/47. Час/sound/0003.mp3,lt,0.202,"5 minut 1. Nertakau ar tašakate. 2. ašakate amma fonds minutu. Vy? Dį šima chsalčią chatą sauds, sauds. Arbaždachsina. A"
+dataset/47. Час/sound/0004.mp3,he,0.301,בואו נדווו שחתו
+dataset/47. Час/sound/0017.mp3,he,0.301,בואו נדווו שחתו
+dataset/47. Час/sound/0018.mp3,he,0.301,"עכשיו, ארטשחהתו"
+dataset/47. Час/sound/0019.mp3,ru,0.667,Дашем Ардагол.
+dataset/47. Час/sound/0020.mp3,bg,0.254,фаръщам ордагал.
+dataset/47. Час/sound/0021.mp3,af,0.230,"5 minuten, Shaach atrdag."
+dataset/47. Час/sound/0022.mp3,tr,0.719,...mam bant kalmak is...
+dataset/47. Час/sound/0023.mp3,de,0.167,Manen machen restagnarisch.
+dataset/48. Месяцы/sound/0001.mp3,hy,0.666,"Архадсекані, январ, февраль, мар, март, апрель, май, май, июн, июн, июн, июн, август, август, сентябр, сентябр, актябр, "
+dataset/48. Месяцы/sound/0002.mp3,pl,0.199,Wyma odpózku zani.
+dataset/48. Месяцы/sound/0003.mp3,ro,0.726,"Mai, mai am a ardea ce faci te. Cagda!"
+dataset/48. Месяцы/sound/0004.mp3,hy,0.167,"καسم bankrupt avenue, ھمکنு, نتھور, тwfs, ھمکنு, نتھور, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ, ھاغ,"
+dataset/48. Месяцы/sound/0009.mp3,hy,0.209,құұұруза қартөфиль қад қасымайлам құсаддавайі менғау на құр қартөф
+dataset/48. Месяцы/sound/0011.mp3,hy,0.209,құұұруза қартөфиль қад қасымайлам құсаддавайі менғау на құр қартөф
+dataset/48. Месяцы/sound/0016.mp3,lt,0.416,Avgustymar aš sausistam šau dėndi žabolmaturkma.
+dataset/48. Месяцы/sound/0017.mp3,kk,0.476,"Салдір мейфащі мақ куамы, аномың шамбалым."
+dataset/48. Месяцы/sound/0018.mp3,tr,0.826,Abon salam u.
+dataset/49. Погода/sound/0001.mp3,ro,0.650,Abon sa va reșteg u.
+dataset/49. Погода/sound/0002.mp3,es,0.163,abon churros
+dataset/49. Погода/sound/0003.mp3,ru,0.370,А в жар бонжкута.
+dataset/49. Погода/sound/0006.mp3,ru,0.303,Дождь!
+dataset/49. Погода/sound/0009.mp3,fr,0.481,A bon antif wajal anoud.
+dataset/49. Погода/sound/0010.mp3,lt,0.251,Varge mirdėm gabonų.
+dataset/49. Погода/sound/0011.mp3,uk,0.438,Расштаджю сводками уштай.
+dataset/49. Погода/sound/0012.mp3,bg,0.255,Сава ръща го зан Райшом. Дош! Райшом Узани Варн!
+dataset/49. Погода/sound/0013.mp3,lt,0.206,Boni de kaug ambiši.
+dataset/49. Погода/sound/0015.mp3,de,0.449,"Meet Bonne Verzag, Ambiche."
+dataset/49. Погода/sound/0016.mp3,lt,0.309,Maruose. Daun astigraduose karmhu ažal.
+dataset/49. Погода/sound/0017.mp3,ro,0.491,"A-bun se disseajă bune, școdta."
+dataset/49. Погода/sound/0018.mp3,ru,0.728,Здесь ращтагхахты Ам-Ивгоу.
+"dataset/50. Ч. 1. В городе, селе/sound/0001.mp3",ru,0.945,"Селе, часть первая, я мы..."
+"dataset/50. Ч. 1. В городе, селе/sound/0002.mp3",he,0.348,"עש, מאח, בצג, חתן, שאתם שמח גורת קורא"
+"dataset/50. Ч. 1. В городе, селе/sound/0003.mp3",ar,0.899,مه مارجر دم تنق فسدي وغورة وقو
+"dataset/50. Ч. 1. В городе, селе/sound/0005.mp3",pl,0.260,"Szefieny niż uagorate, tały."
+"dataset/50. Ч. 1. В городе, селе/sound/0006.mp3",pt,0.259,"Punt, abrindo a valhude."
+"dataset/50. Ч. 1. В городе, селе/sound/0011.mp3",de,0.405,Ich komme am autobusste Stanz. Uhraschei-Fidiratzei-Sberbanke Heiert. Waluta-Ivan-Punk-Wag-Sau
+"dataset/50. Ч. 1. В городе, селе/sound/0012.mp3",he,0.336,דחור שחי
+"dataset/50. Ч. 1. В городе, селе/sound/0013.mp3",ar,0.810,تختر سو
+"dataset/50. Ч. 1. В городе, селе/sound/0014.mp3",ru,0.866,"Под воду. Бауром, машина, вордон. Тирик течет."
+"dataset/50. Ч. 1. В городе, селе/sound/0015.mp3",lt,0.386,Tirkalığı goratığı zaučiokau aštautie
+dataset/50. Ч. 2. Заблудиться/sound/0001.mp3,kk,0.435,"Аж мах, фазаралдан, фазаралістам. Вгоры! Басамон манен, басамонен, фандагд каумы, горат ма, ойжегдон ма."
+dataset/50. Ч. 2. Заблудиться/sound/0011.mp3,en,0.261,Institute
+dataset/50. Ч. 2. Заблудиться/sound/0013.mp3,la,0.461,"Basa Monmanen, Basa Monmanen, Camis Schola, Institut Dukani, Schwadon."
+dataset/50. Ч. 2. Заблудиться/sound/0015.mp3,lt,0.587,"Žardigon, nėden, amubinat nežonin."
+dataset/50. Ч. 3. Мост/sound/0001.mp3,he,0.376,ההסכיד על בסום תשגנו
+dataset/50. Ч. 3. Мост/sound/0002.mp3,ar,0.576,أجنى وندن أسخيد الثون
+dataset/50. Ч. 3. Мост/sound/0003.mp3,az,0.258,Fırkış məmən kən fələk farsmə bəkijənmə.
+dataset/50. Ч. 3. Мост/sound/0004.mp3,ka,0.327,"ām khītša ražin, ām."
+dataset/50. Ч. 4. Население/sound/0001.mp3,ro,0.528,Sa-au adăimaj săr-u o gărătă.
+dataset/50. Ч. 4. Население/sound/0002.mp3,ar,0.302,ساور آدم خطة ومسر أناس؟
+dataset/50. Ч. 4. Население/sound/0003.mp3,mn,0.330,막ępا… mach moon Elliott Keoo sarns clears shakte ukreso ira dte gorz dividend shon michakte ama
+dataset/50. Ч. 4. Население/sound/0005.mp3,mn,0.330,∂ ∂ ∂ ∂ ∂ ∀ ∜ �ы ∴ ∫ ∶ ∴ ∶ R без ∗ ∴
+dataset/50. Ч. 5. Население/sound/0001.mp3,ru,0.127,Ася сердка ман во рду. Я мы.
+dataset/50. Ч. 5. Население/sound/0002.mp3,af,0.477,Man mag van de inalar plie voor te sart fienen.
+dataset/50. Ч. 5. Население/sound/0003.mp3,ar,0.338,كد أرسد ورد أسسر
+dataset/50. Ч. 5. Население/sound/0004.mp3,de,0.409,auf Schmeron Ingen Kasranisch.
+dataset/50. Ч. 5. Население/sound/0005.mp3,he,0.830,"עכשיו שמרון אינגן מממה, אשחצקן"
+dataset/50. Ч. 5. Население/sound/0006.mp3,he,0.160,"סואל אדי, מהג'נגד זה איש"
+dataset/50. Ч. 5. Население/sound/0007.mp3,ro,0.168,"Asă-vășimărul în ingănă în găd-iș, a fătășmine adăimădge."
+dataset/50. Ч. 5. Население/sound/0008.mp3,mn,0.292,Khetakatu kostaisar majardama tanxau.
+dataset/50. Ч. 6. Парк/sound/0001.mp3,de,0.799,Fontan
+dataset/50. Ч. 6. Парк/sound/0002.mp3,ar,0.743,أليه
+dataset/50. Ч. 6. Парк/sound/0003.mp3,ko,0.135,튼그라쇼우드
+dataset/50. Ч. 6. Парк/sound/0007.mp3,ro,0.418,Fătză acate asă parce.
+dataset/50. Ч. 6. Парк/sound/0008.mp3,tr,0.288,Abadam am bandonul.
+dataset/50. Ч. 6. Парк/sound/0009.mp3,uk,0.348,Собаржон Балашу.
+dataset/50. Ч. 6. Парк/sound/0010.mp3,ar,0.644,سم أسأليه
+dataset/50. Ч. 6. Парк/sound/0011.mp3,ro,0.247,Fășcum să disșon parcăm i.
+dataset/50. Ч. 7. Площадь/sound/0001.mp3,ar,0.378,غورة شغراك فجنون كتو
+dataset/50. Ч. 7. Площадь/sound/0002.mp3,ar,0.392,أصفى جنوم قد أول
+dataset/50. Ч. 7. Площадь/sound/0003.mp3,ar,0.262,لنين شريبا رفاج مماما شخصة تكن
+dataset/50. Ч. 8. Рынок/sound/0001.mp3,lt,0.165,Bazar. Wa-gorat kaue bajar iš...
+dataset/50. Ч. 8. Рынок/sound/0003.mp3,pt,0.396,e dar um bajar.
+dataset/50. Ч. 8. Рынок/sound/0004.mp3,de,0.992,Komm ich am Fadeh.
+dataset/50. Ч. 8. Рынок/sound/0005.mp3,fa,0.316,اخشر خالشر شد پویلون
+dataset/50. Ч. 9. Улица/sound/0001.mp3,pl,0.195,Kostachita Górawa Kamm isz
+dataset/50. Ч. 9. Улица/sound/0002.mp3,de,0.572,"Pushkine, Ketakate, Osteie und..."
+dataset/50. Ч. 9. Улица/sound/0004.mp3,de,0.882,Komm ich scheirag unge.
+dataset/50. Ч. 9. Улица/sound/0005.mp3,ar,0.496,كدوم عسوى جنوم
+dataset/50. Ч. 9. Улица/sound/0006.mp3,ro,0.278,"Mană ați o un găl, somn!"
+dataset/50. Ч. 9. Улица/sound/0007.mp3,ru,0.170,"Собираног, хазарта и шаасовунде."
+dataset/51. Ч.1. Адрес/sound/0001.mp3,id,0.626,The Addris Mamen Rat
+dataset/51. Ч.1. Адрес/sound/0002.mp3,ro,0.698,"ne făși, ne fășiut taboaf și mă adres."
+dataset/51. Ч.1. Адрес/sound/0003.mp3,tr,0.530,Adriştin najonun.
+dataset/51. Ч.1. Адрес/sound/0004.mp3,ru,0.297,и отрешен на жёны.
+dataset/51. Ч.1. Адрес/sound/0005.mp3,de,0.975,der Adrichmamen firkuschen können.
+dataset/51. Ч.2. Бандероль/sound/0006.mp3,en,0.463,Comitions Am Bandirolta.
+dataset/51. Ч.2. Бандероль/sound/0007.mp3,ps,0.393,a سب بندی رولم آرویت دخور جخی
+"dataset/51. Ч.3. Конверт, бланк/sound/0008.mp3",yi,0.361,מרקו כנביר. כמבלכנן איש ושיני גחת מרקו כאונביר.
+"dataset/51. Ч.3. Конверт, бланк/sound/0009.mp3",ar,0.369,ها فرماما
+dataset/51. Ч.4. Открытка/sound/0015.mp3,sq,0.377,"Vasha Vapar. Ravdishma, Rima Amam, Ad-Kritka Kafkaze, Iristone, Vagorate, Vaparchenev Tima."
+dataset/51. Ч.4. Открытка/sound/0017.mp3,la,0.564,Say our own us at critical.
+dataset/51. Ч.5. Письмо/sound/0002.mp3,bg,0.261,Дектуй! Та бувавши седефанды на фъшен зур! От прав!
+dataset/51. Ч.5. Письмо/sound/0007.mp3,bg,0.261,Дектуй! Та бувавши седефанды на фъшен зур! От прав!
+dataset/51. Ч.5. Письмо/sound/0018.mp3,ru,0.554,Диктуй. Табовщий.
+dataset/51. Ч.5. Письмо/sound/0019.mp3,uk,0.222,Сидава на фишен зур.
+dataset/51. Ч.5. Письмо/sound/0020.mp3,ro,0.657,Asepi ișmă ma arvii.
+dataset/51. Ч.5. Письмо/sound/0021.mp3,tr,0.600,Puştu aşıcını bar.
+dataset/51. Ч.5. Письмо/sound/0022.mp3,tr,0.440,"barmın rad, dağımı, işmotı, fışının."
+dataset/51. Ч.5. Письмо/sound/0023.mp3,he,0.326,מענן תנג אך ששגון בוזני דוי אישמות האישן
+dataset/51. Ч.5. Письмо/sound/0024.mp3,he,0.827,מי שמותן מנסו אב דצשתות
+dataset/51. Ч.5. Письмо/sound/0025.mp3,ro,0.406,Aș vă arzeni bismotă fșin.
+dataset/51. Ч.5. Письмо/sound/0026.mp3,bg,0.221,Аз на варзен пищ мото-фишен.
+dataset/51. Ч.5. Письмо/sound/0027.mp3,kk,0.403,Асып өшмоді дахоржақей шошланма рад
+dataset/51. Ч.5. Письмо/sound/0028.mp3,bg,0.387,Бужник дъб измойта хрей.
+dataset/51. Ч.5. Письмо/sound/0029.mp3,hr,0.786,Sa obona sa opišmo masškuma.
+"dataset/51. Ч.6. Почта, телеграф/sound/0030.mp3",lt,0.463,"Telegraph, Telefon, Internetu slogi dostupą. Bahaterkan, kam i am počte, Telegraph, Telefon, Telefon, Automat, Internet,"
+"dataset/51. Ч.6. Почта, телеграф/sound/0031.mp3",ro,0.202,Cud a zerda oa telefonai.
+"dataset/51. Ч.6. Почта, телеграф/sound/0032.mp3",mn,0.167,"Manzurenkawe, TV-fone, Goratma, Tard, Achochma"
+dataset/51. Ч.7. Телеграмма/sound/0006.mp3,de,0.235,"Am Telegrammathe, Comissions, manffande Telegramm, Arbiten."
+dataset/51. Ч.7. Телеграмма/sound/0007.mp3,cs,0.164,Arvikma asetiligramma.
+dataset/51. Ч.7. Телеграмма/sound/0035.mp3,cs,0.164,Arvikma asetiligramma.
+dataset/51. Ч.7. Телеграмма/sound/0036.mp3,ru,0.694,Кадных отца узанний телеграмма.
+dataset/51. Ч.8. Парикмахерская/sound/0001.mp3,he,0.654,אמך חיודעשם כמי
+dataset/51. Ч.8. Парикмахерская/sound/0002.mp3,de,0.878,Man von der Marine Taschen.
+dataset/51. Ч.8. Парикмахерская/sound/0003.mp3,tr,0.679,Man Fendi Masha'r Alvinin
+dataset/51. Ч.8. Парикмахерская/sound/0004.mp3,tr,0.848,Şardaşındım.
+dataset/51. Ч.8. Парикмахерская/sound/0005.mp3,ar,0.180,شرداشا ومني
+dataset/51. Ч.8. Парикмахерская/sound/0006.mp3,kk,0.590,"Машің кунтамамін алвын, сабірдер, аггар, сабір куднавай афді."
+dataset/51. Ч.8. Парикмахерская/sound/0007.mp3,ps,0.185,خشکارد ماشین کمامم اور دخورشخی
+dataset/51. Ч.8. Парикмахерская/sound/0009.mp3,de,0.820,"Man von der Masukuta-Scha-Horen, Schgabalsik kannn."
+dataset/51. Ч.8. Парикмахерская/sound/0010.mp3,tr,0.839,"Aramamın Köşen, Şarı Vaşın"
+dataset/51. Ч.8. Парикмахерская/sound/0011.mp3,tr,0.237,Man-tav-ı Manikürşkanın.
+dataset/51. Ч.8. Парикмахерская/sound/0012.mp3,he,0.303,כשמטיקון קבינת ועמש
+"dataset/52. Фотография, фототовары/sound/0001.mp3",pt,0.344,Foto Tavara.
+"dataset/52. Фотография, фототовары/sound/0002.mp3",ru,0.390,Хожусь камсар. Я мы.
+"dataset/52. Фотография, фототовары/sound/0003.mp3",de,0.849,Man macht von demer.
+"dataset/52. Фотография, фототовары/sound/0004.mp3",tr,0.268,Fandina hoşçusun.
+"dataset/52. Фотография, фототовары/sound/0005.mp3",ro,0.254,"Că-c tăi! Tă-a boaf și cu-tă, cu-doa."
+"dataset/52. Фотография, фототовары/sound/0006.mp3",ar,0.281,فندد وخشيشين
+"dataset/52. Фотография, фототовары/sound/0007.mp3",kk,0.418,"Нас! Шишмамын, Шишмамын, Ма, Не, Хочң ахай, Шарма, Аштейлайуалама, Батгайя. Камті, сад тіка дузыщі. Түмейш фотографірова"
+"dataset/52. Фотография, фототовары/sound/0008.mp3",ru,0.240,"Афтышло, афтышло, уйден, ажуон, да, уохоз, сишон."
+"dataset/52. Фотография, фототовары/sound/0014.mp3",ru,0.313,"Афтышло, афтышло, уйден, ажу,"
+"dataset/52. Фотография, фототовары/sound/0015.mp3",he,0.847,דווחו שישון
+"dataset/52. Фотография, фототовары/sound/0016.mp3",lt,0.841,"žirdūl dar nenmāmen, dekam balavarkan."
+"dataset/52. Фотография, фототовары/sound/0017.mp3",lt,0.406,žerdūldarunandin makam lavarkanin.
+"dataset/52. Фотография, фототовары/sound/0018.mp3",nn,0.149,Man Balhanen Gauhø Pljonka
+"dataset/52. Фотография, фототовары/sound/0019.mp3",he,0.550,כמה בחנן אישאם חוששן זו מתת
+dataset/53. Ч.1. Ванна/sound/0001.mp3,pl,0.471,Dóż Bania. Man von D. Machinenin.
+dataset/53. Ч.1. Ванна/sound/0002.mp3,fr,0.257,"Camille Ouvane, douche, abana."
+dataset/53. Ч.1. Ванна/sound/0003.mp3,he,0.784,כמום איש חי שחשן
+dataset/53. Ч.1. Ванна/sound/0004.mp3,ja,0.418,ワカウーアバナイシ
+dataset/53. Ч.10. Шитье/sound/0003.mp3,az,0.383,mazardı iş qalaf bakhuin kanın.
+dataset/53. Ч.10. Шитье/sound/0010.mp3,az,0.383,mazardı iş qalaf bakhuin kanın.
+"dataset/53. Ч.2. Гость, гостиница/sound/0001.mp3",ps,0.255,میدم a rasaut و خورشخی و از جتا شپادود
+dataset/53. Ч.3. Дверь/sound/0001.mp3,he,0.172,דואר מהבקן דחורשחי דואר דגו כמש
+dataset/53. Ч.3. Дверь/sound/0002.mp3,ps,0.282,doarma sıkge dachorzakhai csidhe mida ma
+dataset/53. Ч.4. Окно/sound/0001.mp3,ps,0.269,Ruzangma Bakha Shakhka Dachorzakhai Ruzangma Rakhash
+dataset/53. Ч.8. Стирка/sound/0008.mp3,kk,0.270,"Магерштамы, ақшен ма рәттен кауы. Магерштамын тғағд нұстышті, дұұржағай, мағадонғл мағен, и түауар."
+dataset/53. Ч.9. Чистка/sound/0002.mp3,ru,0.285,"Макastюм, пиджак, халавк, або, юбка, щези коттон."
+dataset/53. Ч.9. Чистка/sound/0003.mp3,kk,0.417,"Заума жұдіқңын ма кадым радділа, кадрайдаін сқушін."
+dataset/53. Ч.9. Чистка/sound/0004.mp3,kk,0.515,"Елбонма, ныşіңда кңзыщі жалма, хор жұрайшам, арбауайзінын."
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0004.mp3",ar,0.246,سوم قونا نوع
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0005.mp3",nl,0.289,"Garandonma, bouwfeetma. Eet het stol?"
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0019.mp3",ro,0.572,Asăștol.
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0020.mp3",de,0.157,Bandon 8-0.
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0021.mp3",lt,0.335,"Dieme ʻašbādın ambalū, vieme ʻašbādın ambalū."
+"dataset/54. Ч.1. Ресторан, буфет, столовая/sound/0023.mp3",pl,0.920,"Ta była wsi, spad, spadłut."
+dataset/54. Ч.10. Приправа и специи/sound/0041.mp3,ru,0.606,"уксус, рассол из чеснока."
+dataset/54. Ч.10. Приправа и специи/sound/0042.mp3,cs,0.646,"Sakh garcíce, šrce vři."
+dataset/54. Ч.10. Приправа и специи/sound/0043.mp3,bg,0.229,Бърс уксус за Амари.
+dataset/54. Ч.10. Приправа и специи/sound/0044.mp3,he,0.505,נור זכטון רחש.
+dataset/54. Ч.11. Счет/sound/0002.mp3,ps,0.213,اخسامانا رایش دخورشخی خضما راخش دخورشخی
+dataset/54. Ч.11. Счет/sound/0013.mp3,kk,0.298,қсаманен раеш дахор жахай
+dataset/54. Ч.11. Счет/sound/0014.mp3,ps,0.315,اخسامان رایش دخور جخی خضم را خش دخور جخی
+dataset/54. Ч.11. Счет/sound/0050.mp3,kk,0.298,"Ах саманен, раич дахор жахай."
+dataset/54. Ч.11. Счет/sound/0051.mp3,ps,0.367,اخسامان رایش دخور جخی
+dataset/54. Ч.11. Счет/sound/0052.mp3,ru,0.172,Гудма рахащ дахоржа хай.
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0002.mp3",kk,0.265,"өбахортай, бахортай, агодан, шіңор, аүшавар бахортай, бахортай."
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0004.mp3",kk,0.265,"өбахортай, бахортай, агодан, шіңор, аүшавар бахортай, бахортай."
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0010.mp3",he,0.277,"אז, מה, אךורמקדן?"
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0011.mp3",he,0.419,"אךור מג, שתם."
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0012.mp3",ar,0.791,من مخارن سو
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0013.mp3",kk,0.167,"Сом ахудан, шихор ахшавар бахаран. Я, тмы!"
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0016.mp3",tr,0.684,Donu Ajin'tam Donu Ajin'tam Sağol
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0018.mp3",he,0.550,"חרינה גשקן מממה, ממש,"
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0021.mp3",fa,0.326,آخودن شیخور اخشاور سوو اشتد کننش
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0024.mp3",pl,0.164,"Yes! Raśma, Raśutma!"
+"dataset/54. Ч.2. Завтрак, обед, ужин/sound/0025.mp3",ru,0.296,ахаром ахарутма да и хоржаха
+dataset/54. Ч.3. Меню/sound/0003.mp3,hy,0.454,"ā fi tisantke, farmzder maa Ṭqan dachorzachai, tüng tachtkannam, tüng tachtkannam."
+dataset/54. Ч.3. Меню/sound/0008.mp3,hy,0.334,"à fi צánt кけ, فرافز در مה کن داخור жахей..."
+dataset/54. Ч.3. Меню/sound/0009.mp3,de,0.506,"Tünktart können, Tünktart können."
+dataset/54. Ч.3. Меню/sound/0011.mp3,hy,0.334,افیKn tándke فаровزדר ما came da ho�네rrushach
+dataset/54. Ч.3. Меню/sound/0012.mp3,de,0.506,"Tünktart können, Tünktart können."
+dataset/54. Ч.4. Закуски/sound/0013.mp3,kk,0.335,"раха шмамен, раха шмамен дахорзахай ишвам."
+dataset/54. Ч.4. Закуски/sound/0014.mp3,lv,0.422,"Kalbaš, Luk, Adenste, Agurci, Jit Rite"
+dataset/54. Ч.4. Закуски/sound/0017.mp3,tr,0.425,Amin dorthu.
+dataset/54. Ч.4. Закуски/sound/0018.mp3,tr,0.592,Bultçete. Selat. Salat.
+dataset/54. Ч.4. Закуски/sound/0023.mp3,uk,0.570,"Кабушкає, редискатей, діт ритей. Сир, сахчисно. Нур."
+dataset/54. Ч.5. Первые блюда/sound/0002.mp3,yi,0.322,"אבר ממ�'מם דחור שחי בורש, מיסנוי, סזמיתהנא בורש, זיזי, מנה, הנזיזי, אך שרשארטים בוליון בוש"
+dataset/54. Ч.5. Первые блюда/sound/0003.mp3,hy,0.300,پرنس اخشر ایسای ارخب
+dataset/54. Ч.5. Первые блюда/sound/0009.mp3,hy,0.300,پرنس اخشر ایسای ارخب
+dataset/54. Ч.6. Вторые блюда/sound/0009.mp3,lt,0.405,Fetcinuom isš Waliibach Waliibach uomis Kartovcinuom isš Sakharadžen Pirok načinionai listimis vikliis ir Sakharadžinuom
+dataset/54. Ч.6. Вторые блюда/sound/0017.mp3,ar,0.707,فشفة دوام قدر فخائي اش
+dataset/54. Ч.6. Вторые блюда/sound/0018.mp3,ru,0.437,Катлет.
+dataset/54. Ч.6. Вторые блюда/sound/0019.mp3,ar,0.507,جو جفد
+dataset/54. Ч.6. Вторые блюда/sound/0020.mp3,lt,0.216,Karčiofud. Mazgi. Maši.
+dataset/54. Ч.6. Вторые блюда/sound/0022.mp3,lt,0.475,Wirkti. Ryba. Kašag.
+dataset/54. Ч.6. Вторые блюда/sound/0024.mp3,bg,0.361,Сасиската!
+dataset/54. Ч.6. Вторые блюда/sound/0025.mp3,ar,0.359,روض فدوام إش
+dataset/54. Ч.6. Вторые блюда/sound/0026.mp3,pl,0.293,"Tylałym, iść."
+dataset/54. Ч.7. Напитки/sound/0027.mp3,ru,0.816,Минир Алон Дон. Какал. К Вас. Омал. Кефир. Мишен. Кисель. Кампот. Малоко. Ахшар. Пива Асетинская. Ирон Багану. Ситро. Си
+dataset/54. Ч.7. Напитки/sound/0038.mp3,ja,0.234,サイリモニム
+dataset/54. Ч.8. Порция/sound/0002.mp3,ru,0.165,раха шма до хоржахой порции орда котлета одну порцию 2
+dataset/54. Ч.8. Порция/sound/0003.mp3,uk,0.902,Тирі 4 порці шашлика. І у порці 2 арте сапар порцій Фіжонег.
+dataset/54. Ч.8. Порция/sound/0008.mp3,fr,0.923,Devant.
+dataset/54. Ч.8. Порция/sound/0009.mp3,bg,0.462,Ю Аговже до ОАРТА с пар Аговже е компот.
+dataset/54. Ч.9. Прибор/sound/0002.mp3,kk,0.266,"Аварма мен, аварма мені дахорзіқей нұйдер, Юприбор."
+dataset/54. Ч.9. Прибор/sound/0013.mp3,tr,0.440,Afermağımın
+dataset/54. Ч.9. Прибор/sound/0014.mp3,kk,0.184,Авар маеным діғор жігі...
+dataset/54. Ч.9. Прибор/sound/0015.mp3,bg,0.677,Нодидър Ю Прибор.
+dataset/54. Ч.9. Прибор/sound/0016.mp3,ro,0.223,A gauge două artă separ a găgei.
+dataset/54. Ч.9. Прибор/sound/0020.mp3,uk,0.410,"Вілка, до уа, арта, сапар вілка. Лошку, 2, 3, 4 ложки. Уйдя, до уа, арта, сапар вийде, джи."
+dataset/54. Ч.9. Прибор/sound/0028.mp3,fr,0.184,D'où a ?
+dataset/54. Ч.9. Прибор/sound/0029.mp3,tr,0.504,Arta Sıbbar Kardı
+dataset/54. Ч.9. Прибор/sound/0032.mp3,uk,0.355,"Две, три, чотирі рюмки. Рюмка, два, арта, сапар-рюмкай."
+dataset/54. Ч.9. Прибор/sound/0036.mp3,ru,0.359,"Табах двуа, арта, с парта бога."
+dataset/54. Ч.9. Прибор/sound/0040.mp3,ru,0.388,Стопер
+dataset/55. Промышленные предприятия/sound/0001.mp3,pt,0.621,Fobre.
+dataset/55. Промышленные предприятия/sound/0004.mp3,pt,0.750,Fobre.
+dataset/55. Промышленные предприятия/sound/0006.mp3,lt,0.630,"Bira žavod fabrikata salžavodu fabrikai, savar žavodu fabrikata iš waraijone, kaue gorat respublikai."
+dataset/55. Промышленные предприятия/sound/0007.mp3,sk,0.540,Sávar produkciú a zvážávod u a fábrik.
+dataset/55. Промышленные предприятия/sound/0008.mp3,ro,0.454,"Să alcushă dici o javode, o fabricăi."
+dataset/55. Промышленные предприятия/sound/0009.mp3,de,0.634,"Mach Kuschen, Elektrazinchen."
+dataset/55. Промышленные предприятия/sound/0011.mp3,de,0.302,und die Vagatterie-Mundgenen ja wurde.
+dataset/55. Промышленные предприятия/sound/0012.mp3,bg,0.323,газаре сауматъгане фабрики.
+dataset/55. Промышленные предприятия/sound/0013.mp3,pl,0.941,Masz i neta ganan żawody.
+dataset/55. Промышленные предприятия/sound/0014.mp3,ro,0.614,"Fabric. Jeavod Fabricai Director, CEO."
+dataset/55. Промышленные предприятия/sound/0016.mp3,he,0.388,מה נאמא ענחה שקן נכון
+dataset/55. Промышленные предприятия/sound/0017.mp3,ar,0.355,مجرد مفاصد وجاوض
+dataset/55. Промышленные предприятия/sound/0018.mp3,tr,0.782,Madfand'ı kuştun Allah'ın...
+dataset/55. Промышленные предприятия/sound/0019.mp3,ro,0.358,Răștâmpișnâma de ai.
+dataset/55. Промышленные предприятия/sound/0020.mp3,hi,0.289,Dhamijta Saashu
+dataset/55. Промышленные предприятия/sound/0021.mp3,he,0.545,פרמיתה הרחפי שום
+dataset/55. Промышленные предприятия/sound/0022.mp3,af,0.539,Als shitten mag shitten
+dataset/55. Промышленные предприятия/sound/0023.mp3,ar,0.372,شما أخفو ترض زي ناد شخر كنما
+dataset/55. Промышленные предприятия/sound/0024.mp3,he,0.538,מהכן עכשיו גון הוא נפלפרצינת שמהכן בחייקן
+dataset/55. Промышленные предприятия/sound/0025.mp3,ru,0.269,Вашей фабрик. Наш завод имеет три цеха. Как он всех работает? Нас...
+dataset/55. Промышленные предприятия/sound/0026.mp3,uk,0.488,"Зборачнава циха. Бажунгамама, Кан. Бажунгамама, Кан. Механікун. Амбардганан циха кущетіма."
+dataset/55. Промышленные предприятия/sound/0032.mp3,uk,0.488,"Зборачнава циха. Бажунгамама, Кан. Бажунгамама, Кан. Механікун. Амбардганан циха кущетіма."
+dataset/56. Строительство/sound/0001.mp3,mn,0.180,сердχזהرض та оруж' hurryene Connie-TA equipment Wakaue Ryan Goraub Re-s pub
+dataset/56. Строительство/sound/0002.mp3,tr,0.317,Arıştadığı nok metadayı payda kanut
+dataset/56. Строительство/sound/0003.mp3,ro,0.563,"Vă rayonă respublicei, arăștadon dur, arăștadon caduf-is."
+dataset/56. Строительство/sound/0004.mp3,he,0.413,כתפה ושתות ערשתת עש גבוד חזר
+dataset/56. Строительство/sound/0005.mp3,tr,0.287,"Arıştığa da proyekti, mamama, bazı ongakın."
+dataset/56. Строительство/sound/0006.mp3,de,0.278,Pard Schindöck
+dataset/56. Строительство/sound/0007.mp3,tr,0.809,Arışcavı Hazar
+dataset/56. Строительство/sound/0008.mp3,hi,0.277,Kirti
+dataset/56. Строительство/sound/0013.mp3,de,0.370,bis so zu den Männern.
+dataset/56. Строительство/sound/0016.mp3,lt,0.244,"Man kaue fajnežite, ambaržen, Žieš Čiar, agrīdur, kad armag, žmiš, cėmient ambaržen dur."
+dataset/57. Ч.1. Сельское хозяйство/sound/0006.mp3,ka,0.244,"Makh, šimakh, udonit, Khazarat nartakka, hommkana. Seps šinnicu, kokuruzu."
+dataset/57. Ч.1. Сельское хозяйство/sound/0007.mp3,uk,0.628,"Та ви мене у Нартхор, шази картов. Політку курузу свіклу."
+dataset/57. Ч.1. Сельское хозяйство/sound/0008.mp3,kk,0.411,"Руві на артхор сахара, губа кані картов. Косид сена."
+dataset/57. Ч.1. Сельское хозяйство/sound/0009.mp3,uk,0.307,"Карди хош, живе драгдонма."
+dataset/57. Ч.1. Сельское хозяйство/sound/0010.mp3,yi,0.204,אף שניים מנהוכו שנרד חור קרטוב.
+dataset/57. Ч.1. Сельское хозяйство/sound/0015.mp3,bg,0.844,"О, въси! Вшна е дърхта халчарта."
+dataset/57. Ч.1. Сельское хозяйство/sound/0017.mp3,bg,0.844,"О, въси! Вшна е дърхта халчарта."
+dataset/57. Ч.1. Сельское хозяйство/sound/0018.mp3,fa,0.490,ساو آدیم آجکوش شمخ خزاراده
+dataset/57. Ч.1. Сельское хозяйство/sound/0019.mp3,kk,0.260,"Мақазарады кушы, шада, дуғын, артым адеймаджі."
+dataset/57. Ч.2. Инвентарь/sound/0003.mp3,ps,0.175,وقوان خزرادون کشنگرش تستست
+dataset/57. Ч.2. Инвентарь/sound/0004.mp3,ru,0.206,"Валзегон, кущетом, файжегон, кущетом."
+dataset/57. Ч.2. Инвентарь/sound/0007.mp3,kk,0.240,шагой макалу кымшардыва
+dataset/57. Ч.2. Инвентарь/sound/0008.mp3,cs,0.528,Tož k makaů. Kasa. Savak makaů.
+dataset/57. Ч.2. Инвентарь/sound/0010.mp3,en,0.388,blue
+dataset/57. Ч.2. Инвентарь/sound/0012.mp3,tr,0.333,Alışır.
+dataset/57. Ч.2. Инвентарь/sound/0013.mp3,de,0.859,Ruhren.
+"dataset/57. Ч.3. Поле, степь, луг/sound/0002.mp3",en,0.207,Kamm E. Wadron. Stan.
+"dataset/57. Ч.3. Поле, степь, луг/sound/0003.mp3",fa,0.284,خمجر خوام سالگیگتر ایش
+"dataset/57. Ч.3. Поле, степь, луг/sound/0004.mp3",hy,0.171,"نرد خورن, مناون, כارتوفن, жخ, сاش باخم קודتت."
+"dataset/57. Ч.3. Поле, степь, луг/sound/0005.mp3",lt,0.309,kod bira varsin iš anakaroni vrššeg bedrte.
+"dataset/57. Ч.3. Поле, степь, луг/sound/0006.mp3",ka,0.786,"Som, war, tausets, ach, naul, abadam"
+"dataset/57. Ч.3. Поле, степь, луг/sound/0007.mp3",bg,0.434,Сръщу дъщи ва-въгарданта.
+"dataset/57. Ч.3. Поле, степь, луг/sound/0008.mp3",lt,0.185,"Manfandy, bedaron didinčitabukiet artonen."
+dataset/57. Ч.4. Правление/sound/0001.mp3,ru,0.384,Он хожу правленник асраниш.
+dataset/57. Ч.4. Правление/sound/0002.mp3,tr,0.215,"Çiğu, Mankavv, Kadam Asıl'yı"
+dataset/57. Ч.4. Правление/sound/0003.mp3,ru,0.563,"Калхожий шардар, совхозы директор."
+dataset/57. Ч.4. Правление/sound/0004.mp3,ru,0.199,"Хистер Бугалдер, Хахт-Хахт-шаг, секретар."
+dataset/57. Ч.4. Правление/sound/0005.mp3,ru,0.316,"Вокал хоже, правление сал, вон же ищ."
+dataset/57. Ч.4. Правление/sound/0006.mp3,ru,0.369,"Уо, правление амбертка дузан."
+dataset/57. Ч.4. Правление/sound/0007.mp3,sq,0.293,"Savr, Farstadam, Kašseštut."
+dataset/57. Ч.5. Семена/sound/0003.mp3,he,0.991,שמעכמה בנתון מקקטאיש
+dataset/57. Ч.5. Семена/sound/0004.mp3,la,0.371,"Sì mi nŐi fŐn, kŐd fŐs'at dŐa nŐt mŐcgek tŐ fŐnŐ."
+dataset/57. Ч.5. Семена/sound/0005.mp3,bg,0.243,Асъм кък тър хорж шефжерънс. Чем вы?
+dataset/57. Ч.5. Семена/sound/0006.mp3,hy,0.290,καنு رازم ۊ ۀ ۀۀ ۀ ۊ ۀۀ ۀ ۀۀ ۀ ې ۉ ۀ ۀ ۀ ۀ ۊ ۜ ۀ ۉ ۉ ۀ ۀ ۀ ۉ 实ۢ ۀ ۀ ۇ ۉ ۀ ۀ ۀ ۀ ۀ ۜ ۀ ۀ ۀ ۀ ۉ ۀ ۀ ۀ ۀ ۀ ۀ ۀ ۀ ۀ ۀ ۀ ۬ ۀ 
+dataset/57. Ч.5. Семена/sound/0007.mp3,ar,0.355,عدون خور
+dataset/57. Ч.5. Семена/sound/0008.mp3,ar,0.486,أفجر مكاك تشد
+dataset/57. Ч.6. Удобрения/sound/0010.mp3,lt,0.327,"Savr, kas entei, faciūt, uobydirtam."
+dataset/57. Ч.6. Удобрения/sound/0011.mp3,kk,0.646,"Мах, на будрті, на сахарадыті, на пърқанам, файдші, меніра лон, касынті."
+dataset/57. Ч.6. Удобрения/sound/0012.mp3,ka,0.765,"Sa'vrkimikon, mineralon, kasantai, pajda kanun."
+dataset/57. Ч.7. Урожай/sound/0015.mp3,ru,0.212,"Кукурузы, картофеля, вруктов, овощи. Кудуам ржадии оса ж манау, на ртхор, картоф, дырг-халшар."
+dataset/57. Ч.7. Урожай/sound/0021.mp3,tr,0.415,Faronaynım Asıcaz
+dataset/57. Ч.7. Урожай/sound/0022.mp3,az,0.355,Əşdər əvzərdər rəzət tələq.
+dataset/57. Ч.8. Ферма (неполная)/sound/0011.mp3,de,0.409,Ich will nicht. Man macht von der Waffirma finden.
+dataset/57. Ч.8. Ферма (неполная)/sound/0036.mp3,lt,0.693,"Saš ardu sut, saš ardu seššutka ala ugaider. Raštam biš nemadai."
+dataset/57. Ч.8. Ферма (неполная)/sound/0041.mp3,lt,0.693,"Saš ardu sut, saš ardu seššutka ala ugaider. Raštam biš nemadai."
+dataset/57. Ч.8. Ферма (неполная)/sound/0042.mp3,kk,0.765,"Мақма алы кугейдер ръщым бишнымадей, Дусынс ахшардаш литрі."
+dataset/57. Ч.8. Ферма (неполная)/sound/0043.mp3,ar,0.351,كمدار وقبل ته
+dataset/57. Ч.8. Ферма (неполная)/sound/0045.mp3,ru,0.532,Ворачите!
+dataset/57. Ч.8. Ферма (неполная)/sound/0046.mp3,lt,0.332,"Kazliata, šanit jį. Cipliata, į įūtų."
+"dataset/58. Сад, огород/sound/0002.mp3",lt,0.405,Savar bala štajai uodrždonu.
+"dataset/58. Сад, огород/sound/0003.mp3",af,0.275,"Maag d'r d'ongeijen, fatkotten, kardotten, chlauute, balten."
+"dataset/58. Сад, огород/sound/0004.mp3",lt,0.902,"Srašių dėdinag akaltuai, daradonai fatkoj balaštia."
+"dataset/58. Сад, огород/sound/0005.mp3",ar,0.698,درغضون مجيلاً كا
+"dataset/58. Сад, огород/sound/0006.mp3",ar,0.854,وسخراتون اشكحتت
+"dataset/58. Сад, огород/sound/0007.mp3",bg,0.285,"Савър хал шарта шазен, вънт канут асъ аж."
+"dataset/58. Сад, огород/sound/0008.mp3",lt,0.420,"Markov, sveklų, pamidorai. Makh, nesšat, sыštam, adinste, nūrte, vūrzyte, sakharatę, amidorte."
+dataset/59. Игрушки/sound/0001.mp3,ar,0.832,ساور قاجنت دقوه
+dataset/59. Игрушки/sound/0004.mp3,kk,0.349,құрмамын дұұр жәқей?
+dataset/59. Игрушки/sound/0005.mp3,kk,0.165,"Ифтензге, музикалон, режині, каженті."
+dataset/59. Игрушки/sound/0007.mp3,lv,0.233,Savrkāģentau amīši.
+dataset/59. Игрушки/sound/0008.mp3,fr,0.664,Deux.
+dataset/59. Игрушки/sound/0011.mp3,ar,0.869,من قعجنته عفزد 2 عجزد
+dataset/59. Игрушки/sound/0012.mp3,lt,0.630,Artažiusid šių vallon bintuon giziltan.
+dataset/59. Игрушки/sound/0013.mp3,lt,0.239,Saš arhu asakajen.
+dataset/59. Игрушки/sound/0014.mp3,tr,0.392,"işin ışı askı kajin, askı kajintı."
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0001.mp3",la,0.352,"Campag disc te, ca se te taum iš"
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0002.mp3",lt,0.251,"Ir on muzikai kompak diskta, kasietatą, oms savertaiš."
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0003.mp3",kk,0.460,"Қарғамамын дахор жақай, үйуң үрд кампак дискты, касетаты, үрон музика имы."
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0004.mp3",tr,0.761,Öş folder warzın gercidü.
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0005.mp3",en,0.680,Cuffin the...
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0006.mp3",en,0.256,Symphonion
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0007.mp3",ru,0.397,"опирон, адамон, музыка"
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0010.mp3",kk,0.119,"Савар кінута омиш, ирыштоні історій арзі тахай."
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0011.mp3",la,0.243,Asekampagdiskme by Ocean
+"dataset/60. Ч.1. Аудио, видокассеты, CD/sound/0012.mp3",tr,0.650,Bakın da nefendi.
+dataset/60. Ч.2. Канцелярские товары/sound/0002.mp3,tr,0.331,"Hors-ı Çuzg, Zerma!"
+dataset/60. Ч.2. Канцелярские товары/sound/0003.mp3,la,0.184,"Sa i arru. Albón, Dla foto. Albón, Armte, Avarnan, Nifcanan."
+dataset/60. Ч.2. Канцелярские товары/sound/0006.mp3,ru,0.362,Крандащта. Папка. Папка. Портфель. Артфель. Две пищи бумаги. А вторую чку. А в армамин до хожихой Ютей Трад. Ду-а-рта-са
+dataset/60. Ч.2. Канцелярские товары/sound/0007.mp3,bg,0.404,"2-а, орта с пар пъчкой, на фешене гъхат."
+dataset/60. Ч.3. Музыкальные инструменты/sound/0002.mp3,lt,0.436,"Baraban. Balalai ka baraban, fundr, gitar, išvom, sayarhu."
+dataset/60. Ч.3. Музыкальные инструменты/sound/0003.mp3,hr,0.336,Savr i Ronna Canalon Instrumient Tomiš.
+dataset/60. Ч.3. Музыкальные инструменты/sound/0010.mp3,hr,0.336,Savr i Ronna Canalon Instrumient Tomiš.
+dataset/60. Ч.3. Музыкальные инструменты/sound/0011.mp3,lt,0.206,Man kaue gitarai mandalinii balalai kaių teulta.
+dataset/60. Ч.4. Мебель/sound/0001.mp3,de,0.635,"Ich wohn, es gab sauma, aunzen, die waren, Eiden, Schöntag, Tümbel, Fischen, Stol, Falmen, Kallegin, Bandete, Sejahrum."
+dataset/60. Ч.4. Мебель/sound/0012.mp3,de,0.944,Die waren ua...
+dataset/60. Ч.4. Мебель/sound/0013.mp3,de,0.455,"von uns, von uns, mein Schoenmeach..."
+dataset/60. Ч.4. Мебель/sound/0014.mp3,tr,0.270,What is our mom come our agents?
+dataset/61. Ч.1. Булочные изделия/sound/0002.mp3,en,0.306,Button
+dataset/61. Ч.1. Булочные изделия/sound/0005.mp3,af,0.157,"Avermaamend, dagorze geibouken."
+dataset/61. Ч.1. Булочные изделия/sound/0006.mp3,it,0.273,baton pecce in ita
+dataset/61. Ч.1. Булочные изделия/sound/0007.mp3,tr,0.682,"Uğur çizol, şavzul."
+dataset/61. Ч.1. Булочные изделия/sound/0008.mp3,bg,0.220,Саштакал.
+dataset/61. Ч.1. Булочные изделия/sound/0009.mp3,ru,0.397,Мамковую. Килограмм.
+dataset/61. Ч.1. Булочные изделия/sound/0010.mp3,bg,0.261,"2 кг, ушсу."
+dataset/61. Ч.1. Булочные изделия/sound/0012.mp3,tr,0.381,"Kilogram Amardık, Yubu Kanka, Shaozu."
+dataset/61. Ч.1. Булочные изделия/sound/0013.mp3,pl,0.430,500 g.
+dataset/61. Ч.1. Булочные изделия/sound/0015.mp3,ro,0.774,"Fonsa de gram pachă, două pachăi pe ceinite."
+dataset/61. Ч.1. Булочные изделия/sound/0017.mp3,br,0.219,Batoukonsiume
+dataset/61. Ч.1. Булочные изделия/sound/0018.mp3,ar,0.740,و دخور جخي
+dataset/61. Ч.1. Булочные изделия/sound/0019.mp3,lt,0.546,Nakau bužinig sumkais nvarzinan.
+dataset/61. Ч.10. Фрукты/sound/0001.mp3,uk,0.526,"Пол кілло, полтора кілограма, а й ви. А в армамен до хоржихий кілеер до кіла мааа."
+dataset/61. Ч.10. Фрукты/sound/0002.mp3,bg,0.416,"Ардаг къмшите. Али чий? Ах, шинцата. Вина града. Шенавширта. Вишен, чирешен. Балта."
+dataset/61. Ч.10. Фрукты/sound/0007.mp3,lt,0.527,Katdak kardotu. Bėžsiką. Alt amite. Sleef. Čilauite.
+dataset/61. Ч.10. Фрукты/sound/0011.mp3,de,0.927,Fattgutte!
+dataset/61. Ч.10. Фрукты/sound/0012.mp3,af,0.320,Ajoarzen Harbys Neeshi
+"dataset/61. Ч.2. Варенье, повидло, сахар/sound/0001.mp3",uk,0.421,Али чове?
+"dataset/61. Ч.2. Варенье, повидло, сахар/sound/0005.mp3",kk,0.431,"Балы, ахшанды, фаткуйі, арышкавты, варенілам, іш? Дай мі банку, две банки, варені, Джимам. Аварман и у банка, дуа банкай"
+"dataset/61. Ч.2. Варенье, повидло, сахар/sound/0011.mp3",la,0.235,Avar ma m'n i'u fons kilogram m'g art-shakart.
+"dataset/61. Ч.2. Варенье, повидло, сахар/sound/0012.mp3",ru,0.866,"Сахарный песок у вас есть? Лишь так шокаром, ищ."
+"dataset/61. Ч.3. Вино, напитки/sound/0001.mp3",lv,0.194,Savršantau omīš.
+"dataset/61. Ч.3. Вино, напитки/sound/0004.mp3",la,0.837,"Kagore, likeore, champagne, ski, avdua, arta avdjumamen, avr."
+"dataset/61. Ч.3. Вино, напитки/sound/0005.mp3",pl,0.175,Bo skończą na kawał.
+"dataset/61. Ч.3. Вино, напитки/sound/0006.mp3",bg,0.371,в отка на нуажен.
+"dataset/61. Ч.3. Вино, напитки/sound/0011.mp3",lt,0.245,"Avžiarno vaid, Liminat, baganę sytro mineralon don banagin."
+"dataset/61. Ч.3. Вино, напитки/sound/0012.mp3",pt,0.703,"Pessoal, ajudando a conta ir ao baganheia Roros Fénon."
+"dataset/61. Ч.4. Мясо, колбасы/sound/0001.mp3",ar,0.557,اشتور فدوام اش
+"dataset/61. Ч.4. Мясо, колбасы/sound/0002.mp3",lt,0.288,Na FETCHIN! Duo kilograma maman štūrufid abar FETCHIN AGAN!
+"dataset/61. Ч.4. Мясо, колбасы/sound/0003.mp3",sq,0.311,"Øs fësë fëdej kond fëjjoneg, fëlder warzen Më ne maman ardegej du oki la gramë relkën"
+"dataset/61. Ч.4. Мясо, колбасы/sound/0005.mp3",mn,0.422,Man-Ka-U-Teng-Nard Chin-A-Wu
+"dataset/61. Ч.4. Мясо, колбасы/sound/0006.mp3",tr,0.262,A ham kalbaş 2 gram ırdık.
+"dataset/61. Ч.4. Мясо, колбасы/sound/0009.mp3",lt,0.761,"Kalbaši, sesiskatų sardelka tu kilogramma m. avr."
+dataset/61. Ч.5. Консервы/sound/0001.mp3,pl,0.437,Sauer Kansier w towam iść.
+dataset/61. Ч.5. Консервы/sound/0002.mp3,he,0.965,מהכמו איש?
+dataset/61. Ч.5. Консервы/sound/0003.mp3,pl,0.407,Zizai konserwty.
+dataset/61. Ч.5. Консервы/sound/0004.mp3,sq,0.221,Kasha ađi kanserfte. Avađi nji kanserve. Khalšarte kanserfte. Fruktovoj kanserve. Dirkte kanserfte. Avar man iu banka. D
+dataset/61. Ч.5. Консервы/sound/0005.mp3,tr,0.826,Kaşacı Kansierftı.
+dataset/61. Ч.5. Консервы/sound/0011.mp3,tr,0.826,Kaşacı Kansierftı.
+dataset/61. Ч.6. Конфеты/sound/0001.mp3,ar,0.799,ساورك في التومش
+dataset/61. Ч.6. Конфеты/sound/0002.mp3,az,0.326,"Mahma iş şokolat qafiyettədir, kumat qafiyettədir."
+dataset/61. Ч.6. Конфеты/sound/0003.mp3,tr,0.285,Afermağımın yukarobke.
+dataset/61. Ч.6. Конфеты/sound/0004.mp3,ar,0.231,دواشة ده
+dataset/61. Ч.6. Конфеты/sound/0005.mp3,ro,0.364,fonsa de gramă chocolate a fiectă.
+dataset/61. Ч.7. Крупа/sound/0001.mp3,tr,0.255,"Savr, krupa, tovam, iş."
+dataset/61. Ч.7. Крупа/sound/0004.mp3,pl,0.812,Przena!
+dataset/61. Ч.8. Масло/sound/0001.mp3,pl,0.523,Sarwom iść.
+dataset/61. Ч.8. Масло/sound/0003.mp3,nl,0.436,"Avermamen door waschade, fonschadegrammen, nalgen."
+dataset/61. Ч.8. Масло/sound/0005.mp3,yi,0.406,שקלת חצ'ה נלח'ה שרב
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0001.mp3",cy,0.285,"o i achser, achser yśartau, to agno, ni eisiau."
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0004.mp3",nl,0.435,als warzen nog dacht Achcher.
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0005.mp3",ps,0.208,افکت کوند اخشر اخشر شرطاوم اش دوالی ترمامن اخشر ارکا کتزه باسا واض
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0006.mp3",kk,0.435,"Галанский сыр, Ирон, Галандиак сахтумыш,"
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0008.mp3",kk,0.435,"Галанский сыр, Ирон, Галандиак сахтумыш,"
+"dataset/61. Ч.9. Молоко, сметана, сыр/sound/0010.mp3",ru,0.348,аж варжен ирон уолевыхта
+dataset/62. Ч.1. Одежда/sound/0001.mp3,ar,0.408,أورمام رفض شمام
+dataset/62. Ч.1. Одежда/sound/0002.mp3,ar,0.305,شغوي ماده
+dataset/62. Ч.1. Одежда/sound/0003.mp3,lt,0.676,švalonu midekakzaumatų.
+dataset/62. Ч.1. Одежда/sound/0006.mp3,fa,0.388,کفتیچ سرشودو اصد اخشف خوششن خدون کفتی
+dataset/62. Ч.1. Одежда/sound/0010.mp3,de,0.674,"Manfante Balkanen, Schau-Kastien."
+dataset/62. Ч.1. Одежда/sound/0011.mp3,kk,0.184,"Малмаға шкадыл, мора кастюм хуждарфидаузан."
+dataset/62. Ч.1. Одежда/sound/0012.mp3,ar,0.362,أصف بلت موالة أقنون
+dataset/62. Ч.1. Одежда/sound/0013.mp3,yi,0.381,"רב דישמם הממוער תעושה, עושה שרחבים כאבא."
+dataset/62. Ч.1. Одежда/sound/0018.mp3,kk,0.232,Сейарғу кушан халав.
+dataset/62. Ч.1. Одежда/sound/0019.mp3,he,0.724,שעוד הגחדון.
+dataset/62. Ч.2. Галантерея/sound/0001.mp3,ru,0.793,Черных не так. Два арта.
+dataset/62. Ч.2. Галантерея/sound/0002.mp3,yi,0.215,קבל ממן שאו עוש אנדך עבר
+dataset/62. Ч.2. Галантерея/sound/0004.mp3,kk,0.561,Феінен мамын кан налгой маді кухмар жанты.
+dataset/62. Ч.2. Галантерея/sound/0007.mp3,lv,0.337,"Urš, šau, gizu, šitr saparte."
+dataset/62. Ч.2. Галантерея/sound/0013.mp3,lv,0.322,"Kumatā kapron, neilon tārdar, valušdar dzandāta."
+dataset/62. Ч.2. Галантерея/sound/0014.mp3,tr,0.440,Şarbatın
+dataset/62. Ч.3. Обувь/sound/0001.mp3,ru,0.343,"Шардгонг, ах, Дарешвом, Ней? Зимни обуви. Жимагон."
+dataset/62. Ч.3. Обувь/sound/0003.mp3,sk,0.211,"Môž skoje obvý. Noguj, Madge."
+dataset/62. Ч.3. Обувь/sound/0005.mp3,de,0.228,Mancaue Toothlite.
+dataset/62. Ч.3. Обувь/sound/0006.mp3,ru,0.230,Батинки. Сопоги.
+dataset/62. Ч.4. Ткани/sound/0001.mp3,ar,0.328,ساوركمس دقوه
+dataset/62. Ч.4. Ткани/sound/0002.mp3,ar,0.299,منقوه جيب فيشت قمس شردغون قبائن
+dataset/62. Ч.4. Ткани/sound/0003.mp3,ar,0.362,أسقم أسد سشكوم تنظب خفيدا
+dataset/63. Подарки/sound/0003.mp3,tr,0.230,Laplığın mamın lavarın iş tarafı gir.
+dataset/63. Подарки/sound/0004.mp3,ar,0.350,ارغون
+dataset/63. Подарки/sound/0005.mp3,lt,0.807,Asargas šilguoj magan.
+dataset/63. Подарки/sound/0006.mp3,lt,0.520,reštim bie škara nalgojma gan
+dataset/63. Подарки/sound/0008.mp3,kk,0.287,"Манды жінарғдір, ашландыр, лавар болғані"
+dataset/63. Подарки/sound/0011.mp3,tr,0.596,"Kutdam kaşığı Aslı var, Şkolaza'u Aggagu."
+dataset/63. Хозяйственные товары/sound/0001.mp3,ru,0.210,У АГОРАТЫ
+dataset/63. Хозяйственные товары/sound/0002.mp3,hy,0.282,καو خازارادом ט fashion на tąuredmap دکانیитش
+dataset/63. Хозяйственные товары/sound/0008.mp3,kk,0.442,"Манқауы цалым шагой жегалты, забуң хрқбалқаным."
+dataset/63. Хозяйственные товары/sound/0013.mp3,kk,0.341,"Аварма мін, ахшаш уидыде, Карды, вилкай, ажгачіне кані, ахам, андонай."
+dataset/64. Ч.1. Театр/sound/0001.mp3,uk,0.332,"Часть перве, тя!"
+dataset/64. Ч.1. Театр/sound/0003.mp3,ru,0.353,ВАЗ РУСК
+dataset/64. Ч.1. Театр/sound/0004.mp3,az,0.262,"Acdə, acı oqonun iron vır şagdra montiyatırmı."
+dataset/64. Ч.1. Театр/sound/0007.mp3,ar,0.192,أبن إرون أرشق
+dataset/64. Ч.1. Театр/sound/0008.mp3,uk,0.320,Куклато музикалом тятери.
+dataset/64. Ч.1. Театр/sound/0009.mp3,fr,0.446,"C'est ça, on..."
+dataset/64. Ч.1. Театр/sound/0010.mp3,ro,0.407,Manfand de Iște Iro în spectaclifene.
+dataset/64. Ч.1. Театр/sound/0011.mp3,ro,0.326,Cine fost a aceea piersă.
+dataset/64. Ч.1. Театр/sound/0012.mp3,ar,0.217,دجردامه فصدي سبيك تاق
+dataset/64. Ч.1. Театр/sound/0013.mp3,hy,0.128,"Úlshag, framḣarāIGN teenagelichkeit sávrpiesate — Shbartā atiatr."
+dataset/64. Ч.1. Театр/sound/0014.mp3,ro,0.670,Făști agraște de...
+dataset/64. Ч.1. Театр/sound/0015.mp3,bg,0.437,чиве и ронхуждар драматур.
+dataset/64. Ч.1. Театр/sound/0016.mp3,sq,0.294,Savar pijesate nuffaštea
+dataset/64. Ч.10. Дирижер/sound/0001.mp3,tr,0.321,Arkadaşlarım
+dataset/64. Ч.10. Дирижер/sound/0002.mp3,ru,0.211,хорен дирижор ЧИУ.
+dataset/64. Ч.11. Режиссер/sound/0001.mp3,lt,0.635,Ti atrė spiktaklų
+dataset/64. Ч.11. Режиссер/sound/0002.mp3,ja,0.357,キノイル
+dataset/64. Ч.12. Искусство/sound/0001.mp3,de,0.777,"Man fandet Iran Adam Eyvadi mir bei schon geworfen. O was hier ist, Musique ist kuscht. Eyvadi muß hier um isch."
+dataset/64. Ч.12. Искусство/sound/0003.mp3,de,0.985,"Fehl in meinen Köln, Fehl in Mamen Köln."
+dataset/64. Ч.12. Искусство/sound/0004.mp3,ro,0.326,"Ragun Ivadă, expanată."
+dataset/64. Ч.13. Архитектура/sound/0001.mp3,az,0.364,"Əsıx hazarı arki tikturı, sıkımatıg, amar əşşod u."
+dataset/64. Ч.13. Архитектура/sound/0002.mp3,ar,0.114,آسخزر آرخيطيكتورة
+dataset/64. Ч.13. Архитектура/sound/0003.mp3,tr,0.379,Majardama sağı. Majardama ne sağı?
+dataset/64. Ч.14. Скульптура/sound/0001.mp3,sq,0.242,Manfand de bajon geoven i ronskulptarte wasmistima.
+dataset/64. Ч.14. Скульптура/sound/0002.mp3,hy,0.232,қаманфالдрอәр қңыш үрң үрң ірікғон үрң сүлптертей қ ә та сүлптера қайу ас сүлптера ас сүлптера ҩғрң мҸс ғраға ға
+dataset/64. Ч.15. Живопись/sound/0001.mp3,bg,0.382,"Каме шфейнан, балханан и рон в ганжите, уасмеште. Ту автор!"
+dataset/64. Ч.15. Живопись/sound/0002.mp3,af,0.131,aasenneveu partrie te aftar chieo
+dataset/64. Ч.15. Живопись/sound/0004.mp3,tr,0.913,"Kemşar'da, Iron Aftar'danlıktı."
+dataset/64. Ч.15. Живопись/sound/0005.mp3,sk,0.287,Reprodukcit.
+dataset/64. Ч.16. Художник/sound/0001.mp3,tr,0.274,Dajardama tıklar kasınıf gönceti kuştuyta savunuz.
+dataset/64. Ч.16. Художник/sound/0002.mp3,hy,0.510,өр нөне жан өне жані өне жані.
+dataset/64. Ч.17. Кино/sound/0001.mp3,yi,0.282,ארבון חושכינוןב אבדישנס.
+dataset/64. Ч.17. Кино/sound/0002.mp3,el,0.137,βάσκει νό.
+dataset/64. Ч.17. Кино/sound/0004.mp3,af,0.188,Kienoma de Kienoma wa Honon is biletader Raiston.
+dataset/64. Ч.17. Кино/sound/0005.mp3,ps,0.317,Jairat Radha Dajardama Fasadish Kinonov Wa Jardama Fasadish Kinonov Akses Gon Manon
+dataset/64. Ч.17. Кино/sound/0008.mp3,lt,0.577,Salkinetėt raiš uagoratų
+dataset/64. Ч.17. Кино/sound/0009.mp3,ja,0.444,かんそうキノノ
+dataset/64. Ч.17. Кино/sound/0010.mp3,ro,0.379,Camis am kineti atr.
+dataset/64. Ч.18. Музей/sound/0001.mp3,bg,0.255,"Савър музейта, въм и шам горат."
+dataset/64. Ч.18. Музей/sound/0002.mp3,ru,0.231,"Махмыш историон музей, басштажённый музей."
+dataset/64. Ч.18. Музей/sound/0003.mp3,ru,0.566,"литературу на музей, это как оштая музей. Я, мы хочу!"
+dataset/64. Ч.18. Музей/sound/0004.mp3,yi,0.198,"מה מער פנדו בשטאנן מוזיימא, בסעון"
+dataset/64. Ч.18. Музей/sound/0006.mp3,fa,0.354,کسرانش خیتگتگاته اوشتای خزار مزی
+dataset/64. Ч.18. Музей/sound/0010.mp3,ja,0.525,マナウイタスウ
+dataset/64. Ч.18. Музей/sound/0011.mp3,ar,0.499,منعوي سخوين
+dataset/64. Ч.19. Выставка/sound/0001.mp3,lt,0.275,Nertakai raštačių am savar raovdäštite iš.
+dataset/64. Ч.19. Выставка/sound/0004.mp3,mn,0.233,"FANDE, FIENEN, DAWON, CHASARADON, PRAMISCHLINON, RAVDIST."
+dataset/64. Ч.19. Выставка/sound/0005.mp3,ar,0.294,مشكوه نرقون عيواد راوضش فيتتاي فيتت
+dataset/64. Ч.2. Опера/sound/0001.mp3,bg,0.285,"Шмахма националон опира, опирон театр, иш..."
+dataset/64. Ч.2. Опера/sound/0002.mp3,pl,0.184,"Czejkowski opiera i je w gieni, a nie ginłam, a warto."
+dataset/64. Ч.2. Опера/sound/0003.mp3,ru,0.751,А не егина.
+dataset/64. Ч.2. Опера/sound/0005.mp3,lt,0.165,"Čižard, aniegini, Lienskii."
+dataset/64. Ч.2. Опера/sound/0008.mp3,tr,0.906,Son son mutlulların
+dataset/64. Ч.2. Опера/sound/0009.mp3,bg,0.205,"Райшум, опираме!"
+dataset/64. Ч.20. Цирк/sound/0001.mp3,ro,0.575,"Manfande, zirc mă basau."
+dataset/64. Ч.20. Цирк/sound/0002.mp3,ro,0.227,Siiși abonțirce.
+dataset/64. Ч.20. Цирк/sound/0003.mp3,lt,0.314,somut cirkma.
+dataset/64. Ч.20. Цирк/sound/0004.mp3,de,0.315,"Komm, ist es dir?"
+dataset/64. Ч.20. Цирк/sound/0005.mp3,bg,0.584,и ронди гидтаза къж за ще.
+dataset/64. Ч.20. Цирк/sound/0006.mp3,cy,0.231,i'r ond i gyd deim yn tân y pweld ište.
+dataset/64. Ч.20. Цирк/sound/0007.mp3,tr,0.754,Dajarda mı fası dıştı?
+dataset/64. Ч.20. Цирк/sound/0008.mp3,tr,0.478,Manen tanık fasıdıştı majardamı Yeron Cigitte.
+dataset/64. Ч.21. Самодеятельность/sound/0001.mp3,hy,0.175,"Шמ�خ häuf십 fic weiterhin פرิشاد divided women,"
+dataset/64. Ч.21. Самодеятельность/sound/0002.mp3,tr,0.557,Savrk ortam iş.
+dataset/64. Ч.21. Самодеятельность/sound/0003.mp3,en,0.162,Dance with Vali!
+dataset/64. Ч.21. Самодеятельность/sound/0005.mp3,pl,0.608,Machmo i szkawczyty żarzień dramon kord.
+dataset/64. Ч.21. Самодеятельность/sound/0007.mp3,ar,0.531,شماخن وخيمة إشاركيستر فندر زغدك
+dataset/64. Ч.21. Самодеятельность/sound/0009.mp3,ar,0.424,وخيك قبريشا ده راجع منق تيو
+dataset/64. Ч.21. Самодеятельность/sound/0010.mp3,tr,0.435,Kadu'umuza niyi kaçtete ijar.
+dataset/64. Ч.22. Билет/sound/0001.mp3,lt,0.265,"Raga saum bilet tă, veikannins"
+dataset/64. Ч.22. Билет/sound/0005.mp3,uk,0.290,Сейаргу білет.
+dataset/64. Ч.22. Билет/sound/0009.mp3,uk,0.290,Сейаргу білет.
+dataset/64. Ч.3. Балет/sound/0001.mp3,he,0.353,בלטוום איש
+dataset/64. Ч.3. Балет/sound/0002.mp3,de,0.447,Man von der Balletmobakaschen.
+dataset/64. Ч.3. Балет/sound/0003.mp3,ru,0.294,"Чувы, усы, салист."
+dataset/64. Ч.3. Балет/sound/0004.mp3,ro,0.882,Ce-we asa balirina.
+dataset/64. Ч.3. Балет/sound/0005.mp3,ro,0.594,"Juletei partii, cicafă! Chărășu!"
+dataset/64. Ч.3. Балет/sound/0007.mp3,ar,0.320,حرز حرز نقافه
+dataset/64. Ч.4. Ансамбль/sound/0001.mp3,tr,0.343,Zardırtı amağım kavçıtı ansam bile iş
+dataset/64. Ч.4. Ансамбль/sound/0002.mp3,kk,0.452,"Ман фанды 20-раған жеті емі, каф жеті аған санбыліма бакашін."
+dataset/64. Ч.4. Ансамбль/sound/0003.mp3,tr,0.681,Majardamatınk Savihe ve Ansambül.
+dataset/64. Ч.4. Ансамбль/sound/0004.mp3,sq,0.302,"Voi ensemble cancer tun ës feton măshkulje, kiivă."
+dataset/64. Ч.6. Артист/sound/0001.mp3,pl,0.437,As artistem Jem Kagkameju.
+dataset/64. Ч.6. Артист/sound/0002.mp3,lt,0.465,šaira grūlų čia kaži.
+dataset/64. Ч.6. Артист/sound/0003.mp3,kk,0.235,Варашей Адамон артистом чивы. Далантливы. Курдет жін артист кау.
+dataset/64. Ч.7. Акт/sound/0001.mp3,lt,0.166,Sao aktiš asipiesiai.
+dataset/64. Ч.7. Акт/sound/0002.mp3,de,0.712,für Zug.
+dataset/64. Ч.7. Акт/sound/0003.mp3,de,0.956,"Kösse, Aktversicht."
+dataset/64. Ч.8. Антракт/sound/0001.mp3,lv,0.182,Sao minūtu uzanīš antrak.
+dataset/64. Ч.8. Антракт/sound/0003.mp3,de,0.421,"Antrag beweise ich dann, wo fährt man?"
+dataset/64. Ч.8. Антракт/sound/0004.mp3,tr,0.877,Don bana zıçtım.
+dataset/64. Ч.8. Антракт/sound/0005.mp3,tr,0.957,vunugumu akışlıştım.
+dataset/64. Ч.8. Антракт/sound/0006.mp3,kk,0.468,"Артіқ кәгзанғрің, ницахда, сон на бінеті өрсахшам."
+dataset/64. Ч.9. Программа/sound/0001.mp3,hr,0.190,Savr program i žiran.
+dataset/64. Ч.9. Программа/sound/0002.mp3,tr,0.664,"Kanser'den, Sürkan."
+dataset/64. Ч.9. Программа/sound/0004.mp3,tr,0.295,"Programı momen, avır."
+dataset/65. Ч.1. Образование/sound/0001.mp3,pl,0.901,"Cześć pierwę, obrazowanie."
+dataset/65. Ч.1. Образование/sound/0003.mp3,fa,0.544,ساش آخرگون زیناتتم ایش
+dataset/65. Ч.1. Образование/sound/0004.mp3,fa,0.678,ساش آخرگون زینادم اش
+dataset/65. Ч.1. Образование/sound/0005.mp3,he,0.241,"עמית, שעבר שרמה גנד, אחר גנד, זינת, תמיש."
+dataset/65. Ч.1. Образование/sound/0006.mp3,fa,0.191,آخرگون زینادم اش ککو اتی
+dataset/65. Ч.1. Образование/sound/0007.mp3,lt,0.173,Savrškola kaštfadai.
+dataset/65. Ч.1. Образование/sound/0008.mp3,lv,0.315,Savrškola kāšt fāsī.
+dataset/65. Ч.1. Образование/sound/0009.mp3,ka,0.681,ubinontei waldar achr Gunzina疑Čology
+dataset/65. Ч.10. Лекция/sound/0001.mp3,de,0.543,Saal legt sie um ich ab und...
+dataset/65. Ч.10. Лекция/sound/0002.mp3,bg,0.372,Тири! Абон махме с арта!
+dataset/65. Ч.10. Лекция/sound/0003.mp3,ru,0.501,СПОРЛЕКТИ
+dataset/65. Ч.10. Лекция/sound/0008.mp3,lt,0.826,"Fiziki! Či omkas šeilekti ta iron, warššag, nemusag."
+dataset/65. Ч.10. Лекция/sound/0009.mp3,lt,0.157,"Anglišag, Žagai, Jiron, Adamu."
+dataset/65. Ч.10. Лекция/sound/0010.mp3,ru,0.258,История физикая.
+dataset/65. Ч.11. Аудитория/sound/0001.mp3,de,0.881,Kösse Auditoreinamuseinisch legt sie.
+dataset/65. Ч.11. Аудитория/sound/0002.mp3,he,0.232,"סל אכרגן האודיטורי איש אמף, שמחמא"
+dataset/65. Ч.11. Аудитория/sound/0003.mp3,sk,0.334,"Saľ a dej mať bennáť zíš, a sa auditory."
+dataset/65. Ч.11. Аудитория/sound/0004.mp3,pt,0.221,Aginas ao doutor.
+dataset/65. Ч.11. Аудитория/sound/0006.mp3,lt,0.398,Somu dašam ywandašam auditorima nertakkanam umu uzani legcii.
+dataset/65. Ч.12. Общежитие/sound/0001.mp3,tr,0.894,Düğü amzarını sarış.
+dataset/65. Ч.12. Общежитие/sound/0002.mp3,tr,0.259,"Kasraniş, uyem zaran."
+dataset/65. Ч.12. Общежитие/sound/0003.mp3,de,0.547,"Man macht von dir, wir im Saranfenen."
+dataset/65. Ч.12. Общежитие/sound/0004.mp3,ro,0.387,Sa-l adeim aici s-ară în amzară-ne iu-u wată.
+dataset/65. Ч.12. Общежитие/sound/0005.mp3,he,0.605,אבל צגן הוא החדק שניות אמסרן
+dataset/65. Ч.13. Интернат/sound/0001.mp3,lt,0.533,kad aras arsidvo internet.
+dataset/65. Ч.13. Интернат/sound/0005.mp3,la,0.597,"Uagorate, aua, rayone, res publikaje, bira internetta ish."
+dataset/65. Ч.13. Интернат/sound/0007.mp3,ru,0.228,"Отдыха в интернете. Мой сын, моя дочь..."
+dataset/65. Ч.13. Интернат/sound/0008.mp3,az,0.272,maşıvalladı mafard maçıcı ağırkanın s-internati.
+dataset/65. Ч.14. Преподаватель/sound/0001.mp3,ar,0.364,أجدًا برشاج
+dataset/65. Ч.14. Преподаватель/sound/0002.mp3,ru,0.308,Нема саг
+dataset/65. Ч.14. Преподаватель/sound/0003.mp3,ar,0.521,آنغليشاق فزاج آخر جنق
+dataset/65. Ч.14. Преподаватель/sound/0005.mp3,tr,0.419,"Dö, sağ var, predmeye döttü."
+dataset/65. Ч.14. Преподаватель/sound/0006.mp3,de,0.300,Wuse. Man macht von defenen Skoleihe Wuse auch organisierte.
+dataset/65. Ч.14. Преподаватель/sound/0010.mp3,pl,0.165,Francuzka wajezyka.
+dataset/65. Ч.15. Школа/sound/0001.mp3,tr,0.401,"Kasır Aniş, Uyeşkola"
+dataset/65. Ч.15. Школа/sound/0002.mp3,bg,0.270,"Касе вжагал ахурканут в ешколай, истори, географи, ама under предметта."
+dataset/65. Ч.15. Школа/sound/0003.mp3,kk,0.535,"Касыглашей, фасштымаум ахорканғынс, фасаарайнаг, афжаг."
+dataset/65. Ч.15. Школа/sound/0004.mp3,kk,0.152,"Савар фашарейнаң қавзғаң ахор канңыніз, уешколай? Яйзу чайу!"
+dataset/65. Ч.15. Школа/sound/0005.mp3,ar,0.447,اش اخر كانن ماخ اخر كانن
+dataset/65. Ч.15. Школа/sound/0006.mp3,ru,0.667,"Немцог, Англишог"
+dataset/65. Ч.15. Школа/sound/0007.mp3,pl,0.755,"Francu, żaże w ża..."
+dataset/65. Ч.15. Школа/sound/0010.mp3,uk,0.308,Вакоу і жароня школаїж.
+dataset/65. Ч.16. Класс/sound/0001.mp3,az,0.448,Kəsik laşı aqorkanış?
+dataset/65. Ч.16. Класс/sound/0002.mp3,kk,0.281,Қлаші сал ахоргані на дю үш.
+dataset/65. Ч.16. Класс/sound/0003.mp3,yi,0.488,מה' נאח פנדו וגלשתפנן
+"dataset/65. Ч.17. Программа, план/sound/0001.mp3",yi,0.304,"מנפנדה בעשון גבוהן, שקולהי אחר פרגרם היימה."
+"dataset/65. Ч.17. Программа, план/sound/0007.mp3",lt,0.348,"fizikie. Ir on, uvršak, nemsa gvžadži, istoriji fizikai programai ma."
+"dataset/65. Ч.17. Программа, план/sound/0009.mp3",ru,0.501,Класса. Школа и клава. Комла до он кустит.
+"dataset/65. Ч.17. Программа, план/sound/0010.mp3",ru,0.213,планима.
+"dataset/65. Ч.17. Программа, план/sound/0013.mp3",he,0.421,מרחמו
+"dataset/65. Ч.17. Программа, план/sound/0014.mp3",pl,0.138,under programy i under plan.
+dataset/65. Ч.18. Ученик/sound/0001.mp3,ru,0.162,Уезж колой охорганина к тащардыканикулты Кодар Витанс.
+dataset/65. Ч.18. Ученик/sound/0002.mp3,ru,0.342,"Салщик у лазауом ахуркани, хорж..."
+dataset/65. Ч.18. Ученик/sound/0003.mp3,ar,0.308,تنك خور
+dataset/65. Ч.18. Ученик/sound/0004.mp3,pl,0.413,Restynbisz w żar.
+dataset/65. Ч.18. Ученик/sound/0006.mp3,kk,0.229,"Асішкулазау, аф жара, хуркані."
+dataset/65. Ч.18. Ученик/sound/0009.mp3,ar,0.462,ويك مراجد رأى أخر جنين أقوى
+dataset/65. Ч.18. Ученик/sound/0010.mp3,ar,0.265,أجزي شارش تردان
+dataset/65. Ч.19. Урок/sound/0001.mp3,ro,0.558,abonul am salurocis.
+dataset/65. Ч.19. Урок/sound/0002.mp3,lt,0.222,Mokročima abad.
+dataset/65. Ч.19. Урок/sound/0003.mp3,ru,0.390,Трудно!
+dataset/65. Ч.19. Урок/sound/0004.mp3,en,0.363,
+dataset/65. Ч.19. Урок/sound/0009.mp3,br,0.459,"Man, Marc Fande, Basa, oniron, Avjadje, Wurshag, Litila, Turai, Niem Saagavjadje, Faloie, Trimi, Physikei, Matimati, K. "
+dataset/65. Ч.19. Урок/sound/0011.mp3,ar,0.184,دوركت شاخر كنتي
+dataset/65. Ч.19. Урок/sound/0012.mp3,ar,0.644,وطبعوا لف آخر كن
+dataset/65. Ч.2. Ученый/sound/0011.mp3,ar,0.379,ساور آخرادون قبخندم إش
+dataset/65. Ч.2. Ученый/sound/0014.mp3,pl,0.592,"Filosowskich nauk. Aż dana fila logon, technikon, historion, filosofon nauka te kandidate, doktor. Technikumi."
+dataset/65. Ч.2. Ученый/sound/0019.mp3,bg,0.445,Не. Ва института университете техникуме сална уката кандидата докторта и ш...
+dataset/65. Ч.2. Ученый/sound/0021.mp3,ar,0.262,ويجن جنة أخر جنة أول
+dataset/65. Ч.2. Ученый/sound/0022.mp3,ru,0.299,Жендгонтер Ахоргондом Чиу
+dataset/65. Ч.20. Разговор с родителями/sound/0014.mp3,lt,0.571,Ubaši volat jų buldar školama saunus
+dataset/65. Ч.20. Разговор с родителями/sound/0015.mp3,ka,0.328,"Škola mačin esau, aacham, aavdažezid, ʻaši təsāžezid, ʻevolatəom ʻiš."
+dataset/65. Ч.20. Разговор с родителями/sound/0016.mp3,ru,0.320,"Валапу, watch it!"
+dataset/65. Ч.20. Разговор с родителями/sound/0017.mp3,lv,0.220,Sālūna sāns školām.
+dataset/65. Ч.20. Разговор с родителями/sound/0018.mp3,ru,0.840,Ваша дочь. Волопу. Вочер...
+dataset/65. Ч.20. Разговор с родителями/sound/0019.mp3,ps,0.240,یقی افجردار شکولاي سونستتقنه والبپ
+dataset/65. Ч.20. Разговор с родителями/sound/0020.mp3,ru,0.800,"Вот чешь, ехай уроктом. Ваш сын, ваша дочь"
+dataset/65. Ч.20. Разговор с родителями/sound/0021.mp3,kk,0.490,"Волапу, отші жңа ахоркані, Аштей, аф жірдар ехій, Школа ма арбасу директерма, аанхашканінма."
+dataset/65. Ч.20. Разговор с родителями/sound/0022.mp3,kk,0.243,"Валаппуйан, ва чужган, агар біріға щеңне харскаін канут хазар куштетал."
+dataset/65. Ч.20. Разговор с родителями/sound/0023.mp3,ar,0.884,يا آخري فخجد رقان مطول
+dataset/65. Ч.20. Разговор с родителями/sound/0024.mp3,lv,0.255,"Uofertu, atši, sā un navālsā un školāmā."
+dataset/65. Ч.20. Разговор с родителями/sound/0025.mp3,kk,0.409,"өлапу, о чіз хо жа хоркан, аж зы ра жидан."
+dataset/65. Ч.20. Разговор с родителями/sound/0026.mp3,fa,0.313,واتش جانانی زیناد کدو نمى فظ بخطاریش
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0001.mp3",lv,0.292,"Zadšot, kad fauzistud egzāmintalavard mach egzāmintalavard fauzistam iuni karon Sāvar bāra kanan reistai egzāmintu"
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0004.mp3",kk,0.253,"тңқор ждыті, аппат екзамінті дыр."
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0009.mp3",kk,0.253,"тңқор ждыті, аппат екзамінті дыр."
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0010.mp3",ar,0.164,ارفضم كنن اجزامين اجزامين تخشكي راتي راتي ويتخي
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0012.mp3",sq,0.422,"Štir konkursi, fi la logon, facultetma."
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0017.mp3",de,0.562,"Mach Institutma, Universitätma, Technikumma"
+"dataset/65. Ч.21. Экзамен, зачет, конкурс/sound/0018.mp3",lt,0.542,Fakultietma štr. gytzil konkursiš.
+dataset/65. Ч.22. Каникулы/sound/0001.mp3,ro,0.395,Caduamrea idei ziștă căniculță.
+dataset/65. Ч.22. Каникулы/sound/0002.mp3,ro,0.461,Sa-șu ziște o canicul ta.
+dataset/65. Ч.22. Каникулы/sound/0003.mp3,uk,0.867,Как ти думаешь провести конікуле? Кам!
+dataset/65. Ч.22. Каникулы/sound/0004.mp3,sq,0.333,qud arvitës arvitëm makavëš de kanikultë.
+dataset/65. Ч.22. Каникулы/sound/0005.mp3,lt,0.513,"Žkani kultraštai, že asauznan, maškuma, balgarima, dienģizma."
+dataset/65. Ч.23. Детский сад/sound/0001.mp3,ru,0.310,"Шваллытый сахара, донуем ищ."
+dataset/65. Ч.23. Детский сад/sound/0002.mp3,kk,0.178,Манфанды малаппуйе шивалаты сахарадо ма радтен.
+dataset/65. Ч.23. Детский сад/sound/0004.mp3,kk,0.397,Сал Азіздый Ишенз Шивалыті Сахара Донма
+dataset/65. Ч.23. Детский сад/sound/0005.mp3,he,0.341,משוולון יחי כדר
+dataset/65. Ч.23. Детский сад/sound/0006.mp3,ar,0.204,شمخ تنجر دياجعي كشوت نشوف لطم
+dataset/65. Ч.23. Детский сад/sound/0007.mp3,az,0.248,şəmah tən cərdəyə qəyi nə qasjut nəşvol attım.
+dataset/65. Ч.24. Курсы/sound/0001.mp3,az,0.194,ÜLT vermərtə qind Santiago P making o زüla q邊 xələm ə yələ tərəkil girərəm. Nə qində teria nəti CC yerə Start It tə nə q
+dataset/65. Ч.24. Курсы/sound/0006.mp3,de,0.857,Esch Archer können offiste.
+dataset/65. Ч.24. Курсы/sound/0007.mp3,tr,0.478,"Kuşcita, Persana'nın kampültürtü, apiratırtı."
+dataset/65. Ч.24. Курсы/sound/0008.mp3,tr,0.309,Satta ganan kursatı.
+dataset/65. Ч.25. Библиотека/sound/0001.mp3,ru,0.714,Каждую обиблиотека.
+dataset/65. Ч.25. Библиотека/sound/0002.mp3,ru,0.561,Салчин дише у библиотекей.
+dataset/65. Ч.25. Библиотека/sound/0003.mp3,ru,0.248,"Ирон фищатый, у осмыштей, сытаясь, уобиблиотекая."
+dataset/65. Ч.25. Библиотека/sound/0004.mp3,ar,0.383,قوري دوك قوري عم رضمة
+dataset/65. Ч.25. Библиотека/sound/0005.mp3,pt,0.341,um esche negração.
+dataset/65. Ч.25. Библиотека/sound/0006.mp3,lt,0.394,"Puskina, jevgeni anegin. Man kaue puskinačinig, wasmaš jevgeni anegin. Kostachie taugurava. Hei takatai, koštaičinig, ir"
+dataset/65. Ч.26. Читальня/sound/0001.mp3,tr,0.384,Kaşandon kım i.
+dataset/65. Ч.26. Читальня/sound/0002.mp3,yi,0.415,כששחת דווקושי קשן זו
+dataset/65. Ч.26. Читальня/sound/0003.mp3,fr,0.390,Journal Mardouk.
+dataset/65. Ч.26. Читальня/sound/0004.mp3,ro,0.241,"gezie-t reșcinade, jurnal, machdudje, asa a re farone. Păcif că m-am în avar."
+dataset/65. Ч.4. Факультет/sound/0001.mp3,sq,0.781,Savar fakultiette iš uapeda gogon institute.
+dataset/65. Ч.4. Факультет/sound/0002.mp3,de,0.731,Universität Ternikum.
+dataset/65. Ч.4. Факультет/sound/0009.mp3,la,0.643,wa institute universitieta technikum geologon fakultet ish.
+dataset/65. Ч.4. Факультет/sound/0012.mp3,la,0.593,Manfand d'Ebassaun fisichamatimatikum arzon geografion fakultetma.
+dataset/65. Ч.4. Факультет/sound/0013.mp3,ar,0.459,أشعى حرقاً إيسطوريون فيلا لغون فكولتد
+dataset/65. Ч.5. Кафедра/sound/0001.mp3,de,0.281,"Kösse Kaffee, Dröche, Kuschisch."
+dataset/65. Ч.5. Кафедра/sound/0002.mp3,ar,0.266,أشكوشن ورشاج
+dataset/65. Ч.5. Кафедра/sound/0003.mp3,lt,0.386,"Niemsag, anglišag, vžaį kafiedraje."
+dataset/65. Ч.5. Кафедра/sound/0006.mp3,ro,0.639,"Savor ca fiedratei o institută. Ia, my!"
+dataset/65. Ч.5. Кафедра/sound/0007.mp3,yi,0.410,"מ'מח פנד'בשון גווון, ירון עבוד שק אמרליטירתורי, כפי דרי'י, כשטטימא."
+dataset/65. Ч.6. Студент/sound/0001.mp3,la,0.247,"Sal Studentri Šua Institute Universitete Hdann, Weiwur, Peda Gogon, Medi Cinnon"
+dataset/65. Ч.6. Студент/sound/0002.mp3,ru,0.522,"Хахон металлургон, Кауон-Хазарадон, инженерон, арестадон, институты."
+dataset/65. Ч.6. Студент/sound/0011.mp3,ar,0.308,ساور أدم خطتيتهم آخر كانت ستوديد
+dataset/65. Ч.6. Студент/sound/0013.mp3,pt,0.348,se eu for joelho studentesar.
+dataset/65. Ч.7. Стипендия/sound/0001.mp3,de,0.484,Steep ND Ischisch
+dataset/65. Ч.7. Стипендия/sound/0002.mp3,en,0.430,"Archeation Nation, Steepe Andy."
+dataset/65. Ч.7. Стипендия/sound/0003.mp3,en,0.443,such confidence steeply.
+dataset/65. Ч.7. Стипендия/sound/0005.mp3,tr,0.212,stepe andi sonuna işe.
+dataset/65. Ч.7. Стипендия/sound/0006.mp3,ar,0.241,ستبين دي كرائشون وطن بافيزنة دخاش
+dataset/65. Ч.7. Стипендия/sound/0007.mp3,la,0.268,"Chiuom ishe, ashe ishe, Wal dar gond"
+dataset/65. Ч.7. Стипендия/sound/0008.mp3,tr,0.445,Personalon stipendi.
+dataset/65. Ч.8. Курс/sound/0001.mp3,bg,0.345,"Касе курси. Касе курси да, касе курси ще тод. Тарова! Савар дисциплината хащта, арсадъщи, фътзаг, дикгаг, артъкг, с пара"
+dataset/65. Ч.8. Курс/sound/0002.mp3,lt,0.384,"Saugordīšu, uva facultieti fecegam, dikkagam, artikkagam, separam fanzankurse."
+dataset/65. Ч.8. Курс/sound/0009.mp3,lt,0.592,Saulk ordeiš o fakultieti fecegam.
+dataset/65. Ч.8. Курс/sound/0010.mp3,hi,0.294,dhikagam
+dataset/65. Ч.8. Курс/sound/0011.mp3,tr,0.917,"Artık gagam, sıparam, fanzan kursu."
+dataset/65. Ч.8. Курс/sound/0016.mp3,ar,0.424,تارو مورسي
+dataset/65. Ч.9. Лектор/sound/0001.mp3,ar,0.806,لكتر نمى أرباسد
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0001.mp3",ro,0.477,o respublica ii universitet iși.
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0005.mp3",de,0.334,"sauerinstitut, technikunter, collegetaum ist."
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0006.mp3",tr,0.232,Kastran İ!
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0007.mp3",de,0.979,Mann von Defienin.
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0008.mp3",ka,0.371,Pazakhadun Universitet
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0009.mp3",de,0.830,Medizin und Akademie.
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0010.mp3",he,0.327,חכון מתלורגון אינסטיטוד
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0011.mp3",lt,0.471,"Gumanitaron, amas atsalon ir tašinat institut."
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0012.mp3",pl,0.442,finansowa ekonomiczskiej kolicz.
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0013.mp3",de,0.740,"Finanzen, Economicon, College"
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0014.mp3",de,0.400,Medizinon College
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0015.mp3",mn,0.297,Manfandir ba sound pedagogun institutma
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0016.mp3",ru,0.223,медицинскую академию
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0018.mp3",ru,0.573,Колеч.
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0019.mp3",de,0.221,Savor prädemitte der Tanklau Schmachinstitutme
+"dataset/65_Ч_3_Институт,_университет,_техникум,_колледж/sound/0020.mp3",ar,0.295,تخني كم كولجم
+dataset/66. Ч.1. Аптека. Лекарства/sound/0001.mp3,az,0.407,"Kəmiş, əşdəkdər əptəkə."
+dataset/66. Ч.1. Аптека. Лекарства/sound/0005.mp3,ps,0.226,"A vármám d'a khorza khai khufadji, sarniji, gubeniji khos."
+dataset/66. Ч.1. Аптека. Лекарства/sound/0011.mp3,ja,0.645,マンカウウイオーティニツイリン
+dataset/66. Ч.1. Аптека. Лекарства/sound/0012.mp3,sl,0.241,"žerdaniže kaplite, bambo, tavt baran."
+dataset/66. Ч.1. Аптека. Лекарства/sound/0013.mp3,kk,0.185,көдініғаң ажгаңу ұсі асі Хұрш.
+dataset/66. Ч.1. Аптека. Лекарства/sound/0015.mp3,uk,0.703,"Нуажіне того, йогай парашок кей."
+dataset/66. Ч.1. Аптека. Лекарства/sound/0016.mp3,cy,0.289,ddysgai ar ddach gai.
+dataset/66. Ч.1. Аптека. Лекарства/sound/0017.mp3,ar,0.775,خرد رعجمة
+dataset/66. Ч.1. Аптека. Лекарства/sound/0018.mp3,bg,0.319,Харде фаште!
+dataset/66. Ч.1. Аптека. Лекарства/sound/0019.mp3,ja,0.232,You guys サイスマン バーシスマン ウィデゲイ
+dataset/66. Ч.1. Аптека. Лекарства/sound/0021.mp3,de,0.764,"Das Rezept, man kann es nicht."
+dataset/66. Ч.1. Аптека. Лекарства/sound/0022.mp3,ar,0.165,ساش بافيدا نطول
+dataset/66. Ч.2. Болезнь/sound/0001.mp3,ar,0.500,أجرن كندن
+dataset/66. Ч.2. Болезнь/sound/0002.mp3,es,0.272,Ve RENCHANU
+dataset/66. Ч.2. Болезнь/sound/0003.mp3,lt,0.365,"Až, vui, nr. saldarbuny."
+dataset/66. Ч.2. Болезнь/sound/0004.mp3,he,0.947,מחי יחי תשמני
+dataset/66. Ч.2. Болезнь/sound/0005.mp3,de,0.688,"Ihr kann riech können, taft können, reidet dann."
+dataset/66. Ч.2. Болезнь/sound/0011.mp3,fr,0.208,Zoom !
+dataset/66. Ч.2. Болезнь/sound/0013.mp3,mn,0.260,"Masha'r Żerde, Aksen, Kus, Korte, Dendekte, Ašte, Ušte, Grisje."
+dataset/66. Ч.2. Болезнь/sound/0014.mp3,lt,0.362,Masaštite rieššinis.
+dataset/66. Ч.2. Болезнь/sound/0015.mp3,bg,0.535,и я сащата рищен.
+dataset/66. Ч.2. Болезнь/sound/0016.mp3,fa,0.250,مجرد ختزقنه ویجرد ختزقنه
+dataset/66. Ч.2. Болезнь/sound/0018.mp3,ru,0.561,Сидарище
+dataset/66. Ч.2. Болезнь/sound/0019.mp3,de,0.421,am Rieche
+dataset/66. Ч.2. Болезнь/sound/0020.mp3,ru,0.330,Дагрешта Ралаш.
+dataset/66. Ч.2. Болезнь/sound/0021.mp3,en,0.337,ULF MAULF
+dataset/66. Ч.2. Болезнь/sound/0022.mp3,hy,0.212,"อрخhošма, 6-9-1-1-1 ดай пульс, дапульсма-1-1-1"
+dataset/66. Ч.2. Болезнь/sound/0026.mp3,tr,0.468,Kharga kutkanış.
+dataset/66. Ч.2. Болезнь/sound/0027.mp3,tr,0.677,"Dışarılar işi, zil."
+dataset/66. Ч.2. Болезнь/sound/0028.mp3,ar,0.242,سعر خسقا نشتايرنشا نوتا
+dataset/66. Ч.2. Болезнь/sound/0029.mp3,de,0.511,Teefum.
+dataset/66. Ч.2. Болезнь/sound/0030.mp3,fr,0.143,Désentirie
+dataset/66. Ч.2. Болезнь/sound/0033.mp3,la,0.282,"Raždarni kushat tubirkulosei tifaj, gobanižaj, tafša gaj, miningitej."
+dataset/66. Ч.2. Болезнь/sound/0035.mp3,tr,0.939,Kampres ukuldun.
+dataset/66. Ч.2. Болезнь/sound/0036.mp3,de,0.946,Ich kann noch mal gucken.
+dataset/66. Ч.2. Болезнь/sound/0037.mp3,tr,0.452,Yasaf'ın babası dayı.
+dataset/66. Ч.2. Болезнь/sound/0038.mp3,ar,0.159,يوصال بونده يوصال بونية خوشن باكاوزن
+dataset/66. Ч.2. Болезнь/sound/0040.mp3,de,0.984,"Apiraziden, Apirazien, können Kauhe, Anermang."
+dataset/66. Ч.2. Болезнь/sound/0042.mp3,tr,0.826,taşagaydım.
+dataset/66. Ч.2. Болезнь/sound/0043.mp3,lt,0.414,Taš šagaijim nisis.
+dataset/66. Ч.3. Больница/sound/0001.mp3,ro,0.338,"Nirmada Nirmai-Rancindonei, Rafašin"
+dataset/66. Ч.3. Больница/sound/0002.mp3,pl,0.443,Nammatisch.
+dataset/66. Ч.3. Больница/sound/0003.mp3,ru,0.150,"Ренчендониден, ренчендонийн, хочдарозан."
+dataset/66. Ч.3. Больница/sound/0004.mp3,az,0.109,"Tārta, tārda, rāfış sıştam, rünçün donay."
+dataset/66. Ч.3. Больница/sound/0005.mp3,ro,0.596,"Rancându-ne carantinii, rancând farscite mi-dama na oazam."
+dataset/66. Ч.3. Больница/sound/0006.mp3,lt,0.463,Salšiantadžiš uroňčiandonu.
+dataset/66. Ч.3. Больница/sound/0007.mp3,pl,0.224,Wakawe rynciędą i...
+dataset/66. Ч.4. Врач/sound/0001.mp3,az,0.433,Dögtür məməm ərbəkəndə qorcaqay
+dataset/66. Ч.4. Врач/sound/0002.mp3,az,0.180,Kamsar döktür.
+dataset/66. Ч.4. Врач/sound/0003.mp3,ar,0.236,كس شاخة فكوشة دخطر
+dataset/66. Ч.4. Врач/sound/0004.mp3,lt,0.368,"Nevropatolagu, gini kolagu, akulistu, stamatolagu. Manfandy, machifieninkanin, Tirapieftan, Chirurgan, Nevropatolagu, gi"
+dataset/66. Ч.4. Врач/sound/0005.mp3,az,0.349,"Saçditə dəkdirən, stəmat hoolagən dəndəkdir dəkdirən."
+dataset/66. Ч.4. Врач/sound/0006.mp3,bg,0.469,"савърниждам, савърнижам, шартой, догдрата."
