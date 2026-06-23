@@ -1,0 +1,22 @@
+{
+ "topic": "64. Ч.11. Режиссер",
+ "audio_url": "https://raw.githubusercontent.com/eduardgagite/nosu-task/main/raw/64.%20%D0%A7.11.%20%D0%A0%D0%B5%D0%B6%D0%B8%D1%81%D1%81%D0%B5%D1%80.mp3",
+ "phrases": [
+  {
+   "i": 1,
+   "oset": "Теа тры режиссер чи у?",
+   "rus": "Кто режиссер театра?",
+   "start": 7.46,
+   "end": 10.77,
+   "flag": "-"
+  },
+  {
+   "i": 2,
+   "oset": "Спек таклы режиссер чи у?",
+   "rus": "Кто режиссер спектакля?",
+   "start": 11.03,
+   "end": 13.6,
+   "flag": "-"
+  }
+ ]
+}
