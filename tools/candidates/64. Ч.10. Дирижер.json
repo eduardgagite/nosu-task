@@ -1,0 +1,22 @@
+{
+ "topic": "64. Ч.10. Дирижер",
+ "audio_url": "https://raw.githubusercontent.com/eduardgagite/nosu-task/main/raw/64.%20%D0%A7.10.%20%D0%94%D0%B8%D1%80%D0%B8%D0%B6%D0%B5%D1%80.mp3",
+ "phrases": [
+  {
+   "i": 1,
+   "oset": "Оркестрӕн дирижерчиу?",
+   "rus": "Кто дирижирует оркестром?",
+   "start": 9.31,
+   "end": 10.73,
+   "flag": "-"
+  },
+  {
+   "i": 2,
+   "oset": "Хорӕн дирижерчиу?",
+   "rus": "Кто дирижирует хором?",
+   "start": 10.73,
+   "end": 12.8,
+   "flag": "-"
+  }
+ ]
+}

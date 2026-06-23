@@ -1,0 +1,22 @@
+{
+ "topic": "61. Ч.7. Крупа",
+ "audio_url": "https://raw.githubusercontent.com/eduardgagite/nosu-task/main/raw/61.%20%D0%A7.7.%20%D0%9A%D1%80%D1%83%D0%BF%D0%B0.mp3",
+ "phrases": [
+  {
+   "i": 1,
+   "oset": "Цавӕр кърупатӕ уӕм ис?",
+   "rus": "Какие у вас крупы есть?",
+   "start": 8.7,
+   "end": 10.58,
+   "flag": "-"
+  },
+  {
+   "i": 2,
+   "oset": "килограмм еу уы кърупа.",
+   "rus": "килограмм пшена.",
+   "start": 20.2,
+   "end": 25.34,
+   "flag": "-"
+  }
+ ]
+}
