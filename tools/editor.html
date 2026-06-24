@@ -31,6 +31,7 @@
   .dropbtn.on { background: #c62828; color: #fff; border-color: #c62828; }
   .segs { margin: 6px 0 0 30px; display: flex; flex-direction: column; gap: 3px; }
   .seg { display: flex; gap: 6px; align-items: center; font-size: 13px; }
+  .seg .segn { color: #1f4e78; font-weight: 600; min-width: 18px; }
   .seg .mono { color: #666; min-width: 120px; }
   .seg button { padding: 2px 7px; font-size: 13px; }
   .addseg { align-self: flex-start; border-style: dashed; }
@@ -38,7 +39,7 @@
 </head>
 <body>
 <h1>Редактор: звук ↔ текст</h1>
-<p class="hint"><b>Нажми фразу в списке</b> — на волне станут активны только её куски (остальные бледные, не мешают). Тащи края её блоков. У фразы может быть <b>несколько кусков</b> — склеятся по времени (напр. «авд» + «сахатыл»). Текст правь в полях. «＋ кусок» — отрезок к фразе, «＋ фраза» — новую пару.</p>
+<p class="hint"><b>Нажми фразу в списке</b> — на волне станут активны только её куски (остальные бледные, не мешают). Тащи края её блоков. У фразы может быть <b>несколько кусков</b> — склеятся <b>в порядке 1, 2, 3…</b> (кнопки ▲▼ переставляют, время в аудио не важно). Текст правь в полях. «＋ кусок» — отрезок к фразе, «＋ фраза» — новую пару.</p>
 
 <div class="bar">
   <button id="prev">◀ тема</button>
@@ -158,9 +159,8 @@ function syncRegions(){
 
 function playSegs(segs){
   if (!ws || !segs.length) return;
-  const ordered = segs.slice().sort((a,b)=>a[0]-b[0]);
-  let i = 0;
-  const step = ()=>{ if (i>=ordered.length) return; const s=ordered[i]; ws.play(s[0], s[1]); i++; setTimeout(step, (s[1]-s[0])*1000 + 130); };
+  let i = 0;  // порядок кусков — как задан пользователем, НЕ по времени
+  const step = ()=>{ if (i>=segs.length) return; const s=segs[i]; ws.play(s[0], s[1]); i++; setTimeout(step, (s[1]-s[0])*1000 + 150); };
   step();
 }
 
@@ -170,8 +170,11 @@ function renderList(){
     const rec = getRec(t.topic, p);
     const segHtml = rec.segs.map((sg,j)=>
       `<div class="seg">
+         <span class="segn">${j+1}.</span>
          <span class="mono">${sg[0].toFixed(2)}–${sg[1].toFixed(2)}с</span>
-         <button data-a="pseg" data-j="${j}">▶</button>
+         <button data-a="pseg" data-j="${j}" title="послушать кусок">▶</button>
+         <button data-a="segup" data-j="${j}" title="раньше"${j===0?' disabled':''}>▲</button>
+         <button data-a="segdown" data-j="${j}" title="позже"${j===rec.segs.length-1?' disabled':''}>▼</button>
          <button data-a="dseg" data-j="${j}" title="убрать кусок">🗑</button>
        </div>`).join('');
     const isSel = p.i===sel;
@@ -218,6 +221,8 @@ function action(i, a, j){
   if (a==='play'){ playSegs(rec.segs); return; }
   if (a==='pseg'){ const s=rec.segs[j]; if (s) ws.play(s[0], s[1]); return; }
   sel = i;  // редактирование выбирает фразу (её регионы становятся активны)
+  if (a==='segup' && j>0){ const s=rec.segs.splice(j,1)[0]; rec.segs.splice(j-1,0,s); putRec(t.topic,i,rec); syncRegions(); renderList(); return; }
+  if (a==='segdown' && j<rec.segs.length-1){ const s=rec.segs.splice(j,1)[0]; rec.segs.splice(j+1,0,s); putRec(t.topic,i,rec); syncRegions(); renderList(); return; }
   if (a==='dseg'){ rec.segs.splice(j,1); putRec(t.topic, i, rec); syncRegions(); renderList(); updateProg(); return; }
   if (a==='addseg'){ const at = ws?ws.getCurrentTime():0; rec.segs.push([+at.toFixed(2), +(at+0.8).toFixed(2)]); putRec(t.topic, i, rec); syncRegions(); renderList(); updateProg(); return; }
   if (a==='delph'){ delPhrase(i); return; }
@@ -251,7 +256,7 @@ function doExport(){
   const out = [];
   for (const t of DATA) for (const p of topicPhrases(t)){
     const rec = getRec(t.topic, p);
-    const segs = (rec.segs||[]).filter(s=>s[1]>s[0]).sort((a,b)=>a[0]-b[0]);
+    const segs = (rec.segs||[]).filter(s=>s[1]>s[0]);
     if (rec.keep!==false && segs.length && (rec.oset||'').trim())
       out.push({ topic:t.topic, i:p.i, oset:(rec.oset||'').trim(), rus:(rec.rus||'').trim(), segs:segs });
   }
