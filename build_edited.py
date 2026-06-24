@@ -44,17 +44,41 @@ def load_source_map():
     return m
 
 
-def cut(mp3, start, end, out):
-    subprocess.run(["ffmpeg", "-y", "-v", "quiet", "-i", str(mp3),
-                    "-ss", f"{start}", "-to", f"{end}",
-                    "-c:a", "libmp3lame", "-q:a", "4", str(out)])
+def ffprobe_dur(path):
     r = subprocess.run(["ffprobe", "-v", "quiet", "-of", "csv=p=0",
-                        "-show_entries", "format=duration", str(out)],
+                        "-show_entries", "format=duration", str(path)],
                        capture_output=True, text=True)
     try:
         return round(float(r.stdout.strip()), 2)
     except ValueError:
         return 0.0
+
+
+def cut_segs(mp3, segs, out):
+    """Режет один или несколько кусков и склеивает в порядке времени."""
+    segs = sorted(segs, key=lambda s: s[0])
+    if len(segs) == 1:
+        s, e = segs[0]
+        subprocess.run(["ffmpeg", "-y", "-v", "quiet", "-i", str(mp3),
+                        "-ss", f"{s}", "-to", f"{e}",
+                        "-c:a", "libmp3lame", "-q:a", "4", str(out)])
+    else:
+        parts = [f"[0]atrim=start={s}:end={e},asetpts=PTS-STARTPTS[a{k}]"
+                 for k, (s, e) in enumerate(segs)]
+        concat = "".join(f"[a{k}]" for k in range(len(segs))) + \
+                 f"concat=n={len(segs)}:v=0:a=1[out]"
+        flt = ";".join(parts) + ";" + concat
+        subprocess.run(["ffmpeg", "-y", "-v", "quiet", "-i", str(mp3),
+                        "-filter_complex", flt, "-map", "[out]",
+                        "-c:a", "libmp3lame", "-q:a", "4", str(out)])
+    return ffprobe_dur(out)
+
+
+def item_segs(it):
+    segs = it.get("segs")
+    if not segs and "start" in it:
+        segs = [[it["start"], it["end"]]]
+    return [[float(s[0]), float(s[1])] for s in (segs or []) if float(s[1]) > float(s[0])]
 
 
 def main():
@@ -65,8 +89,10 @@ def main():
     src_map = load_source_map()
 
     items = json.loads(Path(args.edited).read_text(encoding="utf-8"))
-    # порядок: по теме, затем по времени начала (чтобы добавленные отрезки встали на место)
-    items.sort(key=lambda x: (tkey(x["topic"]), float(x["start"])))
+    for it in items:
+        it["_segs"] = item_segs(it)
+    # порядок: по теме, затем по времени первого куска
+    items.sort(key=lambda x: (tkey(x["topic"]), x["_segs"][0][0] if x["_segs"] else 0))
 
     if OUT_SOUND.exists():
         shutil.rmtree(OUT_SOUND)
@@ -76,11 +102,11 @@ def main():
     gi = 0
     for it in items:
         mp3 = Path("raw") / f"{it['topic']}.mp3"
-        if not mp3.exists() or float(it["end"]) - float(it["start"]) < 0.1:
+        if not mp3.exists() or not it["_segs"]:
             continue
         gi += 1
         name = f"sound_{gi:07d}.mp3"
-        dur = cut(mp3, float(it["start"]), float(it["end"]), OUT_SOUND / name)
+        dur = cut_segs(mp3, it["_segs"], OUT_SOUND / name)
         rows.append({"path": name, "sentence": it["oset"], "sentence_rus": it["rus"],
                      "duration": dur, "source": src_map.get(it["topic"], "")})
 
