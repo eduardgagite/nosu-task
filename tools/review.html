@@ -107,7 +107,7 @@ function mark(v){
   verdicts[data[pos].path] = v; save(); updateStats();
   pos++; render();
 }
-const esc = s => (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function esc(s){ return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
 
 document.addEventListener('keydown', e=>{
   if (e.code==='Space'){ e.preventDefault(); au.currentTime=0; au.play(); }
