@@ -55,8 +55,7 @@ def ffprobe_dur(path):
 
 
 def cut_segs(mp3, segs, out):
-    """Режет один или несколько кусков и склеивает в порядке времени."""
-    segs = sorted(segs, key=lambda s: s[0])
+    """Режет один или несколько кусков и склеивает В ЗАДАННОМ ПОРЯДКЕ (не по времени)."""
     if len(segs) == 1:
         s, e = segs[0]
         subprocess.run(["ffmpeg", "-y", "-v", "quiet", "-i", str(mp3),
@@ -91,8 +90,8 @@ def main():
     items = json.loads(Path(args.edited).read_text(encoding="utf-8"))
     for it in items:
         it["_segs"] = item_segs(it)
-    # порядок: по теме, затем по времени первого куска
-    items.sort(key=lambda x: (tkey(x["topic"]), x["_segs"][0][0] if x["_segs"] else 0))
+    # порядок строк: по теме, затем по самому раннему куску фразы
+    items.sort(key=lambda x: (tkey(x["topic"]), min((s[0] for s in x["_segs"]), default=0)))
 
     if OUT_SOUND.exists():
         shutil.rmtree(OUT_SOUND)
