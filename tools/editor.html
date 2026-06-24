@@ -17,6 +17,9 @@
   .ph { border: 1px solid #8883; border-radius: 8px; padding: 8px 10px; margin: 5px 0; }
   .ph.drop { opacity: .5; background: #c6282814; }
   .ph.extra { background: #1f4e7810; border-color: #1f4e7855; }
+  .ph.sel { border-color: #1f4e78; box-shadow: 0 0 0 1px #1f4e78; }
+  .ph:not(.sel) { opacity: .7; }
+  .ph:not(.sel):hover { opacity: 1; }
   .ph .head { display: grid; grid-template-columns: 30px 1fr auto; gap: 8px; align-items: start; }
   .ph .n { font-weight: 600; text-align: center; color: #888; padding-top: 5px; }
   .ph.extra .n { color: #1f4e78; }
@@ -35,7 +38,7 @@
 </head>
 <body>
 <h1>Редактор: звук ↔ текст</h1>
-<p class="hint">Цветные блоки на волне — куски осетинской фразы. Тащи края. У фразы может быть <b>несколько кусков</b> — они склеятся по порядку времени (напр. «авд» + «сахатыл»). Текст правь в полях. «＋ кусок» добавляет отрезок к фразе, «＋ фраза» — новую пару.</p>
+<p class="hint"><b>Нажми фразу в списке</b> — на волне станут активны только её куски (остальные бледные, не мешают). Тащи края её блоков. У фразы может быть <b>несколько кусков</b> — склеятся по времени (напр. «авд» + «сахатыл»). Текст правь в полях. «＋ кусок» — отрезок к фразе, «＋ фраза» — новую пару.</p>
 
 <div class="bar">
   <button id="prev">◀ тема</button>
@@ -75,7 +78,14 @@ let store = {};
 try { store = JSON.parse(localStorage.getItem(KEY)||'{}'); } catch(e){}
 const save = () => localStorage.setItem(KEY, JSON.stringify(store));
 
-let ti = 0, ws = null, topic = null, regById = {};
+let ti = 0, ws = null, topic = null, regById = {}, sel = null;
+function selectPhrase(i){ sel = i; syncRegions(); renderList(); seekToSel(); }
+function seekToSel(){
+  if (!ws) return;
+  const p = findP(DATA[ti], sel); if (!p) return;
+  const rec = getRec(topic, p);
+  if (rec.segs.length){ try { ws.seekAndCenter(rec.segs[0][0] / ws.getDuration()); } catch(e){} }
+}
 
 // store[topic][i] = { segs:[[s,e],...], keep, oset, rus, _extra? }
 function defRec(p){ return { segs: (p.start<p.end)?[[p.start,p.end]]:[], keep:true, oset:p.oset, rus:p.rus }; }
@@ -113,7 +123,7 @@ function showTopic(k){
     plugins: [ WaveSurfer.regions.create({ dragSelection:false }) ],
   });
   ws.load(RAW(t.audio_url));
-  ws.on('ready', ()=>{ $('status').textContent=''; syncRegions(); renderList(); });
+  ws.on('ready', ()=>{ $('status').textContent=''; const ph=topicPhrases(t); sel = ph.length?ph[0].i:null; syncRegions(); renderList(); });
   ws.on('error', ()=>{ $('status').textContent = 'не удалось загрузить звук (нужен интернет)'; });
   ws.on('region-update-end', r=>{
     const m = String(r.id).split('_'); const i=+m[0], j=+m[1];
@@ -121,7 +131,7 @@ function showTopic(k){
     const rec = getRec(topic, p); rec.segs[j] = [+r.start.toFixed(2), +r.end.toFixed(2)];
     putRec(topic, i, rec); renderList();
   });
-  ws.on('region-click', (r,ev)=>{ ev.stopPropagation(); r.play(); });
+  ws.on('region-click', (r,ev)=>{ ev.stopPropagation(); const i=+String(r.id).split('_')[0]; if(i===sel) r.play(); else selectPhrase(i); });
   ws.on('audioprocess', ()=>{ $('clock').textContent = ws.getCurrentTime().toFixed(2)+'с'; });
   updateProg();
 }
@@ -133,10 +143,13 @@ function syncRegions(){
   regById = {};
   for (const p of topicPhrases(DATA[ti])){
     const rec = getRec(topic, p);
+    const active = (p.i === sel);
     rec.segs.forEach((sg, j)=>{
       if (sg[1] > sg[0]){
         const r = ws.addRegion({ id:`${p.i}_${j}`, start:sg[0], end:sg[1],
-          color: regColor(rec.keep), drag:true, resize:true, attributes:{ label:`${p.i}.${j+1}` } });
+          color: active ? regColor(rec.keep) : 'rgba(140,140,140,0.10)',
+          drag:active, resize:active,
+          attributes:{ label: active ? `${p.i}.${j+1}` : '' } });
         regById[`${p.i}_${j}`] = r;
       }
     });
@@ -161,9 +174,13 @@ function renderList(){
          <button data-a="pseg" data-j="${j}">▶</button>
          <button data-a="dseg" data-j="${j}" title="убрать кусок">🗑</button>
        </div>`).join('');
-    return `<div class="ph ${rec.keep===false?'drop':''} ${p._extra?'extra':''}" data-i="${p.i}">
+    const isSel = p.i===sel;
+    const segBox = isSel
+      ? `<div class="segs">${segHtml || '<span class="hint">нет кусков</span>'}<button class="addseg" data-a="addseg">＋ кусок (на плейхеде)</button></div>`
+      : `<div class="segs"><span class="hint">${rec.segs.length} кус. — нажми, чтобы настроить границы</span></div>`;
+    return `<div class="ph ${rec.keep===false?'drop':''} ${p._extra?'extra':''} ${isSel?'sel':''}" data-i="${p.i}">
       <div class="head">
-        <span class="n">${p._extra?'＋':p.i}</span>
+        <span class="n" title="выбрать фразу">${p._extra?'＋':p.i}</span>
         <span>
           <input class="tx eo" value="${escA(rec.oset)}" data-i="${p.i}" data-f="oset" placeholder="осетинский — что звучит">
           <input class="tx er" value="${escA(rec.rus)}" data-i="${p.i}" data-f="rus" placeholder="русский перевод">
@@ -175,17 +192,18 @@ function renderList(){
           ${p._extra ? '<button data-a="delph" title="удалить пару">✖</button>' : ''}
         </span>
       </div>
-      <div class="segs">
-        ${segHtml || '<span class="hint">нет кусков</span>'}
-        <button class="addseg" data-a="addseg">＋ кусок (на плейхеде)</button>
-      </div>
+      ${segBox}
     </div>`;
   }).join('');
   $('list').querySelectorAll('button').forEach(b=>{
-    b.onclick = ()=>action(+b.closest('.ph').dataset.i, b.dataset.a, b.dataset.j!=null?+b.dataset.j:null);
+    b.onclick = (ev)=>{ ev.stopPropagation(); action(+b.closest('.ph').dataset.i, b.dataset.a, b.dataset.j!=null?+b.dataset.j:null); };
   });
   $('list').querySelectorAll('input.tx').forEach(inp=>{
     inp.oninput = ()=>setText(+inp.dataset.i, inp.dataset.f, inp.value);
+    inp.onclick = (ev)=>ev.stopPropagation();
+  });
+  $('list').querySelectorAll('.ph').forEach(d=>{
+    d.onclick = ()=>{ const i=+d.dataset.i; if(i!==sel) selectPhrase(i); };
   });
 }
 
@@ -199,6 +217,7 @@ function action(i, a, j){
   const rec = getRec(t.topic, p);
   if (a==='play'){ playSegs(rec.segs); return; }
   if (a==='pseg'){ const s=rec.segs[j]; if (s) ws.play(s[0], s[1]); return; }
+  sel = i;  // редактирование выбирает фразу (её регионы становятся активны)
   if (a==='dseg'){ rec.segs.splice(j,1); putRec(t.topic, i, rec); syncRegions(); renderList(); updateProg(); return; }
   if (a==='addseg'){ const at = ws?ws.getCurrentTime():0; rec.segs.push([+at.toFixed(2), +(at+0.8).toFixed(2)]); putRec(t.topic, i, rec); syncRegions(); renderList(); updateProg(); return; }
   if (a==='delph'){ delPhrase(i); return; }
