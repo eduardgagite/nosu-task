@@ -46,6 +46,7 @@
   <b id="tname" class="mono"></b>
   <button id="next">тема ▶</button>
   <select id="jump"></select>
+  <button id="verify" title="экспорт включит только проверенные темы">тема не готова</button>
   <span id="prog" class="hint"></span>
   <span style="margin-left:auto;display:flex;gap:8px;">
     <button id="export" class="pri">⬇ выгрузить результат</button>
@@ -78,6 +79,23 @@ const KEY = 'nosu_editor_v2';
 let store = {};
 try { store = JSON.parse(localStorage.getItem(KEY)||'{}'); } catch(e){}
 const save = () => localStorage.setItem(KEY, JSON.stringify(store));
+
+const KEYV = 'nosu_editor_verified_v1';
+let verified = {};
+try { verified = JSON.parse(localStorage.getItem(KEYV)||'{}'); } catch(e){}
+const saveV = () => localStorage.setItem(KEYV, JSON.stringify(verified));
+function updateVerifyBtn(){
+  const v = !!verified[topic];
+  const b = $('verify');
+  b.textContent = v ? '✓ тема готова' : 'тема не готова';
+  b.style.background = v ? '#2e7d32' : 'transparent';
+  b.style.color = v ? '#fff' : 'inherit';
+  b.style.borderColor = v ? '#2e7d32' : '#8886';
+  const opt = $('jump').options[ti]; if (opt) opt.textContent = `${(v?'✓ ':'')}${ti+1}. ${topic}`;
+  const nv = Object.values(verified).filter(Boolean).length;
+  $('prog').textContent = `проверено тем: ${nv}/${DATA.length}`;
+}
+function toggleVerified(){ verified[topic] = !verified[topic]; saveV(); updateVerifyBtn(); }
 
 let ti = 0, ws = null, topic = null, regById = {}, sel = null;
 function selectPhrase(i){ sel = i; syncRegions(); renderList(); seekToSel(); }
@@ -114,6 +132,7 @@ function showTopic(k){
   ti = k; const t = DATA[k]; topic = t.topic; regById = {};
   $('tname').textContent = `${k+1}/${DATA.length}: ${t.topic}`;
   $('jump').value = k;
+  updateVerifyBtn();
   $('status').textContent = 'загрузка звука…';
   $('list').innerHTML = '';
   if (ws){ try{ ws.destroy(); }catch(e){} ws=null; }
@@ -254,12 +273,16 @@ function updateProg(){
 
 function doExport(){
   const out = [];
-  for (const t of DATA) for (const p of topicPhrases(t)){
-    const rec = getRec(t.topic, p);
-    const segs = (rec.segs||[]).filter(s=>s[1]>s[0]);
-    if (rec.keep!==false && segs.length && (rec.oset||'').trim())
-      out.push({ topic:t.topic, i:p.i, oset:(rec.oset||'').trim(), rus:(rec.rus||'').trim(), segs:segs });
+  for (const t of DATA){
+    if (!verified[t.topic]) continue;   // только темы, отмеченные «готова»
+    for (const p of topicPhrases(t)){
+      const rec = getRec(t.topic, p);
+      const segs = (rec.segs||[]).filter(s=>s[1]>s[0]);
+      if (rec.keep!==false && segs.length && (rec.oset||'').trim())
+        out.push({ topic:t.topic, i:p.i, oset:(rec.oset||'').trim(), rus:(rec.rus||'').trim(), segs:segs });
+    }
   }
+  if (!out.length){ alert('Нет отмеченных тем. Отметь тему кнопкой «тема готова» (вверху).'); return; }
   const blob = new Blob([JSON.stringify(out,null,1)], {type:'application/json'});
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob); a.download = 'edited.json'; a.click();
@@ -268,7 +291,7 @@ function doExport(){
 if (!DATA.length || !window.WaveSurfer) {
   $('wave').innerHTML = '<p class="hint">Нет данных или не загрузилась библиотека (нужен интернет). Запусти python3 gen_editor.py.</p>';
 } else {
-  DATA.forEach((t,k)=>{ const o=document.createElement('option'); o.value=k; o.textContent=`${k+1}. ${t.topic}`; $('jump').appendChild(o); });
+  DATA.forEach((t,k)=>{ const o=document.createElement('option'); o.value=k; o.textContent=`${(verified[t.topic]?'✓ ':'')}${k+1}. ${t.topic}`; $('jump').appendChild(o); });
   $('jump').onchange = ()=>showTopic(+$('jump').value);
   $('prev').onclick = ()=>showTopic(Math.max(0,ti-1));
   $('next').onclick = ()=>showTopic(Math.min(DATA.length-1,ti+1));
@@ -278,6 +301,7 @@ if (!DATA.length || !window.WaveSurfer) {
   $('addph').onclick = addPhrase;
   $('reset').onclick = ()=>{ if(confirm('Сбросить ВСЕ правки?')){ store={}; save(); showTopic(ti); } };
   $('export').onclick = doExport;
+  $('verify').onclick = toggleVerified;
   showTopic(0);
 }
 </script>
