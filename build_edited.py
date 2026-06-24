@@ -65,8 +65,8 @@ def main():
     src_map = load_source_map()
 
     items = json.loads(Path(args.edited).read_text(encoding="utf-8"))
-    # порядок: по теме, затем по номеру фразы
-    items.sort(key=lambda x: (tkey(x["topic"]), x["i"]))
+    # порядок: по теме, затем по времени начала (чтобы добавленные отрезки встали на место)
+    items.sort(key=lambda x: (tkey(x["topic"]), float(x["start"])))
 
     if OUT_SOUND.exists():
         shutil.rmtree(OUT_SOUND)

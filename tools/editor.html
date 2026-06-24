@@ -17,6 +17,8 @@
   .ph { display: grid; grid-template-columns: 34px 1fr 130px auto; gap: 8px; align-items: center;
         border: 1px solid #8883; border-radius: 8px; padding: 6px 8px; margin: 4px 0; }
   .ph.drop { opacity: .5; background: #c6282814; }
+  .ph.extra { background: #1f4e7814; border-color: #1f4e7855; }
+  .ph.extra .n { color: #1f4e78; }
   .ph .n { font-weight: 600; text-align: center; color: #888; }
   .ph .ru { color: #888; font-size: 13px; }
   .ph b { font-size: 15px; }
@@ -47,6 +49,7 @@
 <div class="bar">
   <button id="playall">▶ вся тема</button>
   <button id="stop">⏸ стоп</button>
+  <button id="addph" title="добавить новый отрезок (на месте плейхеда)">＋ добавить фразу</button>
   <span id="clock" class="mono" style="color:#888">0.00с</span>
   <span class="hint">масштаб</span>
   <input type="range" id="zoom" min="20" max="320" value="90" style="width:160px">
@@ -70,6 +73,33 @@ const save = () => localStorage.setItem(KEY, JSON.stringify(edits));
 const getE = (t,i,def) => (edits[t] && edits[t][i]) ? edits[t][i] : def;
 const setE = (t,i,v) => { (edits[t]=edits[t]||{})[i]=v; save(); };
 
+// добавленные пользователем отрезки (которых не было в авто-разметке): {тема:[id,...]}
+const KEYX = 'nosu_editor_extra_v1';
+let extra = {};
+try { extra = JSON.parse(localStorage.getItem(KEYX)||'{}'); } catch(e){}
+const saveX = () => localStorage.setItem(KEYX, JSON.stringify(extra));
+
+// фразы темы = авто + добавленные вручную
+function topicPhrases(t){
+  const ex = (extra[t.topic]||[]).map(i=>({i:i, oset:'', rus:'', start:0, end:0, _extra:true}));
+  return t.phrases.concat(ex);
+}
+function nextId(t){ let m=0; for (const p of topicPhrases(t)) if (p.i>m) m=p.i; return m+1; }
+function addPhrase(){
+  const t = DATA[ti]; const at = ws ? ws.getCurrentTime() : 0; const id = nextId(t);
+  (extra[t.topic] = extra[t.topic]||[]).push(id); saveX();
+  setE(t.topic, id, {start:+at.toFixed(2), end:+(at+1.2).toFixed(2), keep:true, oset:'', rus:''});
+  if (ws) addRegion(id, getE(t.topic, id, {}));
+  renderList(); updateProg();
+}
+function delPhrase(i){
+  const t = DATA[ti];
+  extra[t.topic] = (extra[t.topic]||[]).filter(x=>x!==i); saveX();
+  if (edits[t.topic]) delete edits[t.topic][i]; save();
+  const r = regById[i]; if (r){ try{ r.remove(); }catch(e){} } delete regById[i];
+  renderList(); updateProg();
+}
+
 let ti = 0, ws = null, topic = null, regById = {};
 
 if (!DATA.length || !window.WaveSurfer) {
@@ -82,8 +112,9 @@ if (!DATA.length || !window.WaveSurfer) {
   $('zoom').oninput = ()=>{ try{ ws && ws.zoom(+$('zoom').value); }catch(e){} };
   $('playall').onclick = ()=>{ try{ ws && ws.playPause(); }catch(e){} };
   $('stop').onclick = ()=>{ try{ ws && ws.stop(); }catch(e){} };
-  $('reset').onclick = ()=>{ if(confirm('Сбросить ВСЕ правки?')){ edits={}; save(); showTopic(ti); } };
+  $('reset').onclick = ()=>{ if(confirm('Сбросить ВСЕ правки?')){ edits={}; extra={}; save(); saveX(); showTopic(ti); } };
   $('export').onclick = doExport;
+  $('addph').onclick = addPhrase;
   showTopic(0);
 }
 
@@ -103,7 +134,7 @@ function showTopic(k){
   ws.load(RAW(t.audio_url));
   ws.on('ready', ()=>{
     $('status').textContent = '';
-    for (const p of t.phrases){
+    for (const p of topicPhrases(t)){
       const e = getE(t.topic, p.i, {start:p.start, end:p.end, keep:true});
       if (e.end > e.start) addRegion(p.i, e);
     }
@@ -132,20 +163,21 @@ function addRegion(i, e){
 
 function renderList(){
   const t = DATA[ti];
-  $('list').innerHTML = t.phrases.map(p=>{
+  $('list').innerHTML = topicPhrases(t).map(p=>{
     const e = getE(t.topic, p.i, {start:p.start, end:p.end, keep:true});
     const has = e.end > e.start;
-    return `<div class="ph ${e.keep===false?'drop':''}" data-i="${p.i}">
-      <span class="n">${p.i}</span>
+    return `<div class="ph ${e.keep===false?'drop':''} ${p._extra?'extra':''}" data-i="${p.i}">
+      <span class="n">${p._extra?'＋':p.i}</span>
       <span class="txt">
-        <input class="tx eo" value="${escA(getTxt(t.topic,p,'oset'))}" data-i="${p.i}" data-f="oset" title="осетинский">
-        <input class="tx er" value="${escA(getTxt(t.topic,p,'rus'))}" data-i="${p.i}" data-f="rus" title="русский">
+        <input class="tx eo" value="${escA(getTxt(t.topic,p,'oset'))}" data-i="${p.i}" data-f="oset" placeholder="осетинский — впиши, что звучит" title="осетинский">
+        <input class="tx er" value="${escA(getTxt(t.topic,p,'rus'))}" data-i="${p.i}" data-f="rus" placeholder="русский перевод" title="русский">
       </span>
       <span class="mono hint">${has ? e.start.toFixed(2)+'–'+e.end.toFixed(2)+'с' : 'нет границ'}</span>
       <span style="display:flex;gap:4px">
-        ${has ? '<button data-a="play">▶</button>' : '<button data-a="create">＋ создать</button>'}
+        ${has ? '<button data-a="play">▶</button>' : '<button data-a="create">＋ границы</button>'}
         <button data-a="keep" class="keepbtn ${e.keep!==false?'on':''}">✓</button>
         <button data-a="drop" class="dropbtn ${e.keep===false?'on':''}">✗</button>
+        ${p._extra ? '<button data-a="del" title="удалить добавленный отрезок">🗑</button>' : ''}
       </span>
     </div>`;
   }).join('');
@@ -160,18 +192,20 @@ function renderList(){
 function getTxt(topic, p, f){ const e = edits[topic] && edits[topic][p.i]; return (e && e[f]!=null) ? e[f] : p[f]; }
 function escA(s){ return esc(s).replace(/"/g,'&quot;'); }
 function setText(i, f, val){
-  const t = DATA[ti]; const p = t.phrases.find(x=>x.i===i); if (!p) return;
+  const t = DATA[ti]; const p = topicPhrases(t).find(x=>x.i===i); if (!p) return;
   let e = getE(t.topic, i, {start:p.start, end:p.end, keep:true});
   e[f] = val; setE(t.topic, i, e);
 }
 
 function action(i, a){
   const t = DATA[ti];
-  let e = getE(t.topic, i, {start:0, end:0, keep:true});
+  const p = topicPhrases(t).find(x=>x.i===i) || {start:0, end:0};
+  let e = getE(t.topic, i, {start:p.start, end:p.end, keep:true});
   if (a==='play'){ const r=regById[i]; if(r) r.play(); return; }
+  if (a==='del'){ delPhrase(i); return; }
   if (a==='create'){
     const at = ws.getCurrentTime();
-    e = {start:+at.toFixed(2), end:+(at+1.5).toFixed(2), keep:true};
+    e.start = +at.toFixed(2); e.end = +(at+1.5).toFixed(2); e.keep = true;
     setE(t.topic, i, e); addRegion(i, e); renderList(); return;
   }
   if (a==='keep') e.keep = true;
@@ -183,7 +217,7 @@ function action(i, a){
 
 function updateProg(){
   let kept=0, dropped=0, edited=0;
-  for (const t of DATA) for (const p of t.phrases){
+  for (const t of DATA) for (const p of topicPhrases(t)){
     const e = edits[t.topic] && edits[t.topic][p.i];
     if (!e) continue;
     edited++;
@@ -194,7 +228,7 @@ function updateProg(){
 
 function doExport(){
   const out = [];
-  for (const t of DATA) for (const p of t.phrases){
+  for (const t of DATA) for (const p of topicPhrases(t)){
     const e = getE(t.topic, p.i, {start:p.start, end:p.end, keep:true});
     if (e.keep!==false && e.end>e.start)
       out.push({ topic:t.topic, i:p.i,
