@@ -23,11 +23,15 @@
   .ph button { padding: 4px 8px; }
   .keepbtn.on { background: #2e7d32; color: #fff; border-color: #2e7d32; }
   .dropbtn.on { background: #c62828; color: #fff; border-color: #c62828; }
+  .ph .txt { display: flex; flex-direction: column; gap: 3px; }
+  .ph input.tx { font-family: inherit; border: 1px solid #8884; border-radius: 5px; padding: 4px 6px; background: transparent; color: inherit; width: 100%; box-sizing: border-box; }
+  .ph input.eo { font-size: 15px; font-weight: 600; }
+  .ph input.er { font-size: 13px; color: #888; }
 </style>
 </head>
 <body>
 <h1>Редактор: звук ↔ текст</h1>
-<p class="hint">Тащи края цветных блоков на волне — это границы осетинской фразы. Клик по блоку — прослушать. Текст из PDF менять не нужно. В финал идут отмеченные «✓».</p>
+<p class="hint">Тащи края цветных блоков на волне — это границы осетинской фразы. Клик по блоку — прослушать. Текст можно править прямо в полях под звук (напр. убрать слово, которого нет в записи). В финал идут отмеченные «✓».</p>
 
 <div class="bar">
   <button id="prev">◀ тема</button>
@@ -133,7 +137,10 @@ function renderList(){
     const has = e.end > e.start;
     return `<div class="ph ${e.keep===false?'drop':''}" data-i="${p.i}">
       <span class="n">${p.i}</span>
-      <span><b>${esc(p.oset)}</b><br><span class="ru">${esc(p.rus)}</span></span>
+      <span class="txt">
+        <input class="tx eo" value="${escA(getTxt(t.topic,p,'oset'))}" data-i="${p.i}" data-f="oset" title="осетинский">
+        <input class="tx er" value="${escA(getTxt(t.topic,p,'rus'))}" data-i="${p.i}" data-f="rus" title="русский">
+      </span>
       <span class="mono hint">${has ? e.start.toFixed(2)+'–'+e.end.toFixed(2)+'с' : 'нет границ'}</span>
       <span style="display:flex;gap:4px">
         ${has ? '<button data-a="play">▶</button>' : '<button data-a="create">＋ создать</button>'}
@@ -145,6 +152,17 @@ function renderList(){
   $('list').querySelectorAll('button').forEach(b=>{
     b.onclick = ()=>action(+b.closest('.ph').dataset.i, b.dataset.a);
   });
+  $('list').querySelectorAll('input.tx').forEach(inp=>{
+    inp.oninput = ()=>setText(+inp.dataset.i, inp.dataset.f, inp.value);
+  });
+}
+
+function getTxt(topic, p, f){ const e = edits[topic] && edits[topic][p.i]; return (e && e[f]!=null) ? e[f] : p[f]; }
+function escA(s){ return esc(s).replace(/"/g,'&quot;'); }
+function setText(i, f, val){
+  const t = DATA[ti]; const p = t.phrases.find(x=>x.i===i); if (!p) return;
+  let e = getE(t.topic, i, {start:p.start, end:p.end, keep:true});
+  e[f] = val; setE(t.topic, i, e);
 }
 
 function action(i, a){
@@ -179,7 +197,9 @@ function doExport(){
   for (const t of DATA) for (const p of t.phrases){
     const e = getE(t.topic, p.i, {start:p.start, end:p.end, keep:true});
     if (e.keep!==false && e.end>e.start)
-      out.push({ topic:t.topic, i:p.i, oset:p.oset, rus:p.rus, start:e.start, end:e.end });
+      out.push({ topic:t.topic, i:p.i,
+                 oset:getTxt(t.topic,p,'oset').trim(), rus:getTxt(t.topic,p,'rus').trim(),
+                 start:e.start, end:e.end });
   }
   const blob = new Blob([JSON.stringify(out,null,1)], {type:'application/json'});
   const a = document.createElement('a');
